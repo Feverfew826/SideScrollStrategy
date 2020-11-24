@@ -1,0 +1,947 @@
+fileFormatVersion: 2
+guid: b2cfe89ce171798429a2b31b701c1633
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -453025647616247643
+    second: PracticeIII_0
+  - first:
+      213: 8834305907436125033
+    second: PracticeIII_1
+  - first:
+      213: 6794622880916017750
+    second: PracticeIII_2
+  - first:
+      213: 8906689679555358923
+    second: PracticeIII_3
+  - first:
+      213: 1973979927150373414
+    second: PracticeIII_4
+  - first:
+      213: -1346279263765857996
+    second: PracticeIII_5
+  - first:
+      213: 4679883161203293196
+    second: PracticeIII_6
+  - first:
+      213: -5703971827023745218
+    second: PracticeIII_7
+  - first:
+      213: 3531360349182624429
+    second: PracticeIII_8
+  - first:
+      213: 5779914712127868354
+    second: PracticeIII_9
+  - first:
+      213: 7556955139765986902
+    second: PracticeIII_10
+  - first:
+      213: -6597704545892440986
+    second: PracticeIII_11
+  - first:
+      213: 8818509932598596803
+    second: PracticeIII_12
+  - first:
+      213: 6821194276820696073
+    second: PracticeIII_13
+  - first:
+      213: 8505531211493490637
+    second: PracticeIII_14
+  - first:
+      213: 1815386210235550532
+    second: PracticeIII_15
+  - first:
+      213: 9056925088585627062
+    second: PracticeIII_16
+  - first:
+      213: -2045930890546832381
+    second: PracticeIII_17
+  - first:
+      213: 926308976271520246
+    second: PracticeIII_18
+  - first:
+      213: -8832684891783937125
+    second: PracticeIII_19
+  - first:
+      213: 3460903877368974217
+    second: PracticeIII_20
+  - first:
+      213: -5882132197615492179
+    second: PracticeIII_21
+  - first:
+      213: -1381182492945051011
+    second: PracticeIII_22
+  - first:
+      213: 1445643073412134230
+    second: PracticeIII_23
+  - first:
+      213: -9092807233239555996
+    second: PracticeIII_24
+  - first:
+      213: 1808245685869615140
+    second: PracticeIII_25
+  - first:
+      213: -6943602256644710843
+    second: PracticeIII_26
+  - first:
+      213: 6918982843364631059
+    second: PracticeIII_27
+  - first:
+      213: 719396694980711561
+    second: PracticeIII_28
+  - first:
+      213: -6736163861383009016
+    second: PracticeIII_29
+  - first:
+      213: -2543669720159930855
+    second: PracticeIII_30
+  - first:
+      213: 2962180274658353978
+    second: PracticeIII_31
+  - first:
+      213: -1120549562460104304
+    second: PracticeIII_32
+  - first:
+      213: 2059887313204078324
+    second: PracticeIII_33
+  - first:
+      213: 1764953430074332285
+    second: PracticeIII_34
+  - first:
+      213: 9175637885905006245
+    second: PracticeIII_35
+  - first:
+      213: -633585955086031788
+    second: PracticeIII_36
+  - first:
+      213: -5550267941681237154
+    second: PracticeIII_37
+  - first:
+      213: -649513198933283663
+    second: PracticeIII_38
+  - first:
+      213: -3748323212567517712
+    second: PracticeIII_39
+  - first:
+      213: -7975466506630616716
+    second: PracticeIII_40
+  - first:
+      213: 8690074205002524412
+    second: PracticeIII_41
+  - first:
+      213: -614216993142567682
+    second: PracticeIII_42
+  - first:
+      213: 6223613285247347096
+    second: PracticeIII_43
+  - first:
+      213: 6001322960732815591
+    second: PracticeIII_44
+  - first:
+      213: -6339885200222940878
+    second: PracticeIII_45
+  - first:
+      213: -4359651339564533545
+    second: PracticeIII_46
+  - first:
+      213: -3087690658048460114
+    second: PracticeIII_47
+  - first:
+      213: 3914669027116577467
+    second: PracticeIII_48
+  - first:
+      213: -4626311561002341187
+    second: PracticeIII_49
+  - first:
+      213: 5343847730979493278
+    second: PracticeIII_50
+  - first:
+      213: 1447018026327651837
+    second: PracticeIII_51
+  - first:
+      213: 2633405399986241905
+    second: PracticeIII_52
+  - first:
+      213: -5230106838753698647
+    second: PracticeIII_53
+  - first:
+      213: -3684417847222818391
+    second: PracticeIII_54
+  - first:
+      213: -7385472927295356891
+    second: PracticeIII_55
+  - first:
+      213: -5606317244404896157
+    second: PracticeIII_56
+  - first:
+      213: 5101108875551291224
+    second: PracticeIII_57
+  - first:
+      213: 6004430569642287169
+    second: PracticeIII_58
+  - first:
+      213: 4236593245852680191
+    second: PracticeIII_59
+  - first:
+      213: 6728829191941639305
+    second: PracticeIII_60
+  - first:
+      213: 4043962578924679254
+    second: PracticeIII_61
+  - first:
+      213: -5662622744811881375
+    second: PracticeIII_62
+  - first:
+      213: 4529989619997302027
+    second: PracticeIII_63
+  - first:
+      213: -4820720997966397196
+    second: PracticeIII_64
+  - first:
+      213: 6955664755235978653
+    second: PracticeIII_65
+  - first:
+      213: -6177478179238469209
+    second: PracticeIII_66
+  - first:
+      213: 2621297179545419562
+    second: PracticeIII_67
+  - first:
+      213: -8992928850605983623
+    second: PracticeIII_68
+  - first:
+      213: -3423071006274892611
+    second: PracticeIII_69
+  - first:
+      213: 1657507659927954127
+    second: PracticeIII_70
+  - first:
+      213: 1282529768119824527
+    second: PracticeIII_71
+  - first:
+      213: 6781369119996644531
+    second: PracticeIII_72
+  - first:
+      213: 552780843921267998
+    second: PracticeIII_73
+  - first:
+      213: 4183610045950262024
+    second: PracticeIII_74
+  - first:
+      213: -4556248986771265071
+    second: PracticeIII_75
+  - first:
+      213: 5737794379601440133
+    second: PracticeIII_76
+  - first:
+      213: 4332293872030146373
+    second: PracticeIII_77
+  - first:
+      213: -1891893770467605083
+    second: PracticeIII_78
+  - first:
+      213: 3155354682618416329
+    second: PracticeIII_79
+  - first:
+      213: -3227188930786121869
+    second: PracticeIII_80
+  - first:
+      213: -3545357817172775789
+    second: PracticeIII_81
+  - first:
+      213: 5992964062851999697
+    second: PracticeIII_82
+  - first:
+      213: 5556599655578508585
+    second: PracticeIII_83
+  - first:
+      213: -2418205281281264815
+    second: PracticeIII_84
+  - first:
+      213: 5199745731474143264
+    second: PracticeIII_85
+  - first:
+      213: -9015761721623083896
+    second: PracticeIII_86
+  - first:
+      213: 1249471427879916802
+    second: PracticeIII_87
+  - first:
+      213: 5231846167468599088
+    second: PracticeIII_88
+  - first:
+      213: -3161727872108278519
+    second: PracticeIII_89
+  - first:
+      213: 6666338136412637066
+    second: PracticeIII_90
+  - first:
+      213: -8811241187426348060
+    second: PracticeIII_91
+  - first:
+      213: -1787621090128804186
+    second: PracticeIII_92
+  - first:
+      213: -2198490185475703953
+    second: PracticeIII_93
+  - first:
+      213: -5223619423569017393
+    second: PracticeIII_94
+  - first:
+      213: 2183411138542978657
+    second: PracticeIII_95
+  - first:
+      213: -7015988878669466974
+    second: PracticeIII_96
+  - first:
+      213: -4369414288594014814
+    second: PracticeIII_97
+  - first:
+      213: -845502644015073314
+    second: PracticeIII_98
+  - first:
+      213: -3438462888672008126
+    second: PracticeIII_99
+  - first:
+      213: 3195602460999524463
+    second: PracticeIII_100
+  - first:
+      213: -1544229002756203341
+    second: PracticeIII_101
+  - first:
+      213: 4779908915388198400
+    second: PracticeIII_102
+  - first:
+      213: -1492953738006206269
+    second: PracticeIII_103
+  - first:
+      213: -66390684932251300
+    second: PracticeIII_104
+  - first:
+      213: -3557129733150633494
+    second: PracticeIII_105
+  - first:
+      213: 6426722408524368690
+    second: PracticeIII_106
+  - first:
+      213: -2717321171963812156
+    second: PracticeIII_107
+  - first:
+      213: -7806939855714930525
+    second: PracticeIII_108
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PracticeIII_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 113
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a831bfd29786b9f0800000000000000
+      internalID: -453025647616247643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 109
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b7dd9aa62c99a70800000000000000
+      internalID: 8834305907436125033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 110
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6529dbfb2895b4e50800000000000000
+      internalID: 6794622880916017750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 107
+        width: 50
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0f88ae21bea9b70800000000000000
+      internalID: 8906689679555358923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 94
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aac8ff84cf46b10800000000000000
+      internalID: 1973979927150373414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_5
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 93
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439f2ca742e015de0800000000000000
+      internalID: -1346279263765857996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_6
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 91
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cbad5a0f842f040800000000000000
+      internalID: 4679883161203293196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 88
+        width: 49
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fe96128db67d0b0800000000000000
+      internalID: -5703971827023745218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 73
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da20ee21789e10130800000000000000
+      internalID: 3531360349182624429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 70
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd8f60bec1663050800000000000000
+      internalID: 5779914712127868354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 74
+        width: 49
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656605149a2bfd860800000000000000
+      internalID: 7556955139765986902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 67
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664e911fbae3074a0800000000000000
+      internalID: -6597704545892440986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 51
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c41bccaf04a16a70800000000000000
+      internalID: 8818509932598596803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 49
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c33d5fd00c9ae50800000000000000
+      internalID: 6821194276820696073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 52
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf31179297b90670800000000000000
+      internalID: 8505531211493490637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 48
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b8b3fc32c813910800000000000000
+      internalID: 1815386210235550532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 51
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b53876e169a0bd70800000000000000
+      internalID: 9056925088585627062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_17
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 30
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c15f1e1b46b93e0800000000000000
+      internalID: -2045930890546832381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 29
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f17bea2b19eadc00800000000000000
+      internalID: 926308976271520246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_19
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 31
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93424473effb6580800000000000000
+      internalID: -8832684891783937125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 7
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b89546db9970030800000000000000
+      internalID: 3460903877368974217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 12
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3ad3f5ee77e5ea0800000000000000
+      internalID: -5882132197615492179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 10
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72950a27dd05dce0800000000000000
+      internalID: -1381182492945051011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PracticeIII_23
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 9
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655fbb647b4ff0410800000000000000
+      internalID: 1445643073412134230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

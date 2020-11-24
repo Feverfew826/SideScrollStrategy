@@ -1,0 +1,3416 @@
+fileFormatVersion: 2
+guid: 49009186a9f890b4fa54e0abb8b98883
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6618493702433557380
+    second: Old hero_0
+  - first:
+      213: 2336570698304965116
+    second: Old hero_1
+  - first:
+      213: 4711211439141679726
+    second: Old hero_2
+  - first:
+      213: -6683920862668536689
+    second: Old hero_3
+  - first:
+      213: 2442867744787577247
+    second: Old hero_4
+  - first:
+      213: -380663657000352884
+    second: Old hero_5
+  - first:
+      213: -8247427897190936331
+    second: Old hero_6
+  - first:
+      213: -7449960293903617258
+    second: Old hero_7
+  - first:
+      213: 4503706679587291668
+    second: Old hero_8
+  - first:
+      213: 5019451969146058455
+    second: Old hero_9
+  - first:
+      213: 761363715512907705
+    second: Old hero_10
+  - first:
+      213: 7831251468020670600
+    second: Old hero_11
+  - first:
+      213: 1261952928884831528
+    second: Old hero_12
+  - first:
+      213: -4792662262650671357
+    second: Old hero_13
+  - first:
+      213: -5579173522298571506
+    second: Old hero_14
+  - first:
+      213: -4468652583653864700
+    second: Old hero_15
+  - first:
+      213: 5489722175524452076
+    second: Old hero_16
+  - first:
+      213: -2729485287943258191
+    second: Old hero_17
+  - first:
+      213: -5048952512941674034
+    second: Old hero_18
+  - first:
+      213: -3803956951036737872
+    second: Old hero_19
+  - first:
+      213: 725859781187806625
+    second: Old hero_20
+  - first:
+      213: 4051768240066838121
+    second: Old hero_21
+  - first:
+      213: -1528108188396168417
+    second: Old hero_22
+  - first:
+      213: -6618057097770218821
+    second: Old hero_23
+  - first:
+      213: 5592829481423790631
+    second: Old hero_24
+  - first:
+      213: 6494824565081809561
+    second: Old hero_25
+  - first:
+      213: -1441072170651728274
+    second: Old hero_26
+  - first:
+      213: -7371956882993798273
+    second: Old hero_27
+  - first:
+      213: 5172602650105442356
+    second: Old hero_28
+  - first:
+      213: 7137658010062270702
+    second: Old hero_29
+  - first:
+      213: 2108100921764564675
+    second: Old hero_30
+  - first:
+      213: 3011071179509228909
+    second: Old hero_31
+  - first:
+      213: -2146361827097901988
+    second: Old hero_32
+  - first:
+      213: -6962533580528529882
+    second: Old hero_33
+  - first:
+      213: -4816992388965931454
+    second: Old hero_34
+  - first:
+      213: 5631032608656716594
+    second: Old hero_35
+  - first:
+      213: -7365063288011617976
+    second: Old hero_36
+  - first:
+      213: -7303054986754108878
+    second: Old hero_37
+  - first:
+      213: -863321338044539395
+    second: Old hero_38
+  - first:
+      213: -1057406497219365834
+    second: Old hero_39
+  - first:
+      213: -9077000363672445944
+    second: Old hero_40
+  - first:
+      213: -7410401103973359113
+    second: Old hero_41
+  - first:
+      213: -8767045774643610074
+    second: Old hero_42
+  - first:
+      213: 4357080604698596795
+    second: Old hero_43
+  - first:
+      213: 6923961070552409695
+    second: Old hero_44
+  - first:
+      213: -7784896485267184720
+    second: Old hero_45
+  - first:
+      213: -5352947696771139435
+    second: Old hero_46
+  - first:
+      213: 1833864455474977934
+    second: Old hero_47
+  - first:
+      213: 8148450777428565754
+    second: Old hero_48
+  - first:
+      213: 1516692445854615425
+    second: Old hero_49
+  - first:
+      213: 799960801123237787
+    second: Old hero_50
+  - first:
+      213: 1864432352805440223
+    second: Old hero_51
+  - first:
+      213: 3170740088030585833
+    second: Old hero_52
+  - first:
+      213: 8745670513878526019
+    second: Old hero_53
+  - first:
+      213: -1933513399043373348
+    second: Old hero_54
+  - first:
+      213: -8902523826866733651
+    second: Old hero_55
+  - first:
+      213: 5158167844065507016
+    second: Old hero_56
+  - first:
+      213: 2840478401700348609
+    second: Old hero_57
+  - first:
+      213: -7473218369591765558
+    second: Old hero_58
+  - first:
+      213: -3036529321179702869
+    second: Old hero_59
+  - first:
+      213: 3647978798488392285
+    second: Old hero_60
+  - first:
+      213: 3853555536939101564
+    second: Old hero_61
+  - first:
+      213: 4400347654056942377
+    second: Old hero_62
+  - first:
+      213: -2406151616288126504
+    second: Old hero_63
+  - first:
+      213: 6564971854345600446
+    second: Old hero_64
+  - first:
+      213: -4435653309654749243
+    second: Old hero_65
+  - first:
+      213: -2593300918910419399
+    second: Old hero_66
+  - first:
+      213: -4632033984190636118
+    second: Old hero_67
+  - first:
+      213: -6440553096104220890
+    second: Old hero_68
+  - first:
+      213: -8731994137359316709
+    second: Old hero_69
+  - first:
+      213: -1438847671195407403
+    second: Old hero_70
+  - first:
+      213: -3749401433274546450
+    second: Old hero_71
+  - first:
+      213: 8187032317488535005
+    second: Old hero_72
+  - first:
+      213: -2993933409759061184
+    second: Old hero_73
+  - first:
+      213: -2445411328462500924
+    second: Old hero_74
+  - first:
+      213: -7999603060549177985
+    second: Old hero_75
+  - first:
+      213: 3865388854597821640
+    second: Old hero_76
+  - first:
+      213: -3298120272824365274
+    second: Old hero_77
+  - first:
+      213: 3555622151695317168
+    second: Old hero_78
+  - first:
+      213: -5901156480211145033
+    second: Old hero_79
+  - first:
+      213: -8273228976130956781
+    second: Old hero_80
+  - first:
+      213: -4636618868740467849
+    second: Old hero_81
+  - first:
+      213: -5871308281987380478
+    second: Old hero_82
+  - first:
+      213: -1506479722353978949
+    second: Old hero_83
+  - first:
+      213: 7974539250925759227
+    second: Old hero_84
+  - first:
+      213: 4316325789980741830
+    second: Old hero_85
+  - first:
+      213: -2804100838798458939
+    second: Old hero_86
+  - first:
+      213: -8448826215093612588
+    second: Old hero_87
+  - first:
+      213: 3864689961703051834
+    second: Old hero_88
+  - first:
+      213: 3673122087040410111
+    second: Old hero_89
+  - first:
+      213: 8337281710361953228
+    second: Old hero_90
+  - first:
+      213: 3032803533615337897
+    second: Old hero_91
+  - first:
+      213: -8316370668847930003
+    second: Old hero_92
+  - first:
+      213: -5624610750445150294
+    second: Old hero_93
+  - first:
+      213: -8381173545219840731
+    second: Old hero_94
+  - first:
+      213: 9137123152282190726
+    second: Old hero_95
+  - first:
+      213: 8674647231176551634
+    second: Old hero_96
+  - first:
+      213: 7805102411353026450
+    second: Old hero_97
+  - first:
+      213: -5467977856224077060
+    second: Old hero_98
+  - first:
+      213: -508981685662105560
+    second: Old hero_99
+  - first:
+      213: -8577131810828796088
+    second: Old hero_100
+  - first:
+      213: -3569760399109705785
+    second: Old hero_101
+  - first:
+      213: 1269499293248397519
+    second: Old hero_102
+  - first:
+      213: 6883256778410579299
+    second: Old hero_103
+  - first:
+      213: 3336821503692886042
+    second: Old hero_104
+  - first:
+      213: 416581236950412054
+    second: Old hero_105
+  - first:
+      213: -8158580010698826427
+    second: Old hero_106
+  - first:
+      213: -7614609052131829592
+    second: Old hero_107
+  - first:
+      213: 7160220998001143083
+    second: Old hero_108
+  - first:
+      213: -8980329624631900782
+    second: Old hero_109
+  - first:
+      213: 230937323237506468
+    second: Old hero_110
+  - first:
+      213: 2428030676643689225
+    second: Old hero_111
+  - first:
+      213: -6702185278049376471
+    second: Old hero_112
+  - first:
+      213: -7694755949696756776
+    second: Old hero_113
+  - first:
+      213: 1623600195526117204
+    second: Old hero_114
+  - first:
+      213: -6219851854407200125
+    second: Old hero_115
+  - first:
+      213: -8848073980383565024
+    second: Old hero_116
+  - first:
+      213: -3763727573946993295
+    second: Old hero_117
+  - first:
+      213: -847620589003236147
+    second: Old hero_118
+  - first:
+      213: -9153305260376445301
+    second: Old hero_119
+  - first:
+      213: -7313528536775769641
+    second: Old hero_120
+  - first:
+      213: -7989044979227281289
+    second: Old hero_121
+  - first:
+      213: 5845178677254163831
+    second: Old hero_122
+  - first:
+      213: -2497224654433166586
+    second: Old hero_123
+  - first:
+      213: -1550729993137821324
+    second: Old hero_124
+  - first:
+      213: -2749249554733237809
+    second: Old hero_125
+  - first:
+      213: 8507761411132742888
+    second: Old hero_126
+  - first:
+      213: 7107218731770802152
+    second: Old hero_127
+  - first:
+      213: -1697565887875983862
+    second: Old hero_128
+  - first:
+      213: -163860120056108738
+    second: Old hero_129
+  - first:
+      213: 1402540016748509045
+    second: Old hero_130
+  - first:
+      213: 9081098066192369292
+    second: Old hero_131
+  - first:
+      213: -5215767288675193383
+    second: Old hero_132
+  - first:
+      213: 8668522473968233061
+    second: Old hero_133
+  - first:
+      213: 8753568593474022101
+    second: Old hero_134
+  - first:
+      213: 8215057211243027858
+    second: Old hero_135
+  - first:
+      213: -6004148969207091496
+    second: Old hero_136
+  - first:
+      213: 4128168600502916411
+    second: Old hero_137
+  - first:
+      213: -1604429313277132613
+    second: Old hero_138
+  - first:
+      213: 1536277124008428253
+    second: Old hero_139
+  - first:
+      213: 318347380034104132
+    second: Old hero_140
+  - first:
+      213: 6029272083634584989
+    second: Old hero_141
+  - first:
+      213: -7617067276558002120
+    second: Old hero_142
+  - first:
+      213: 6033679082433164098
+    second: Old hero_143
+  - first:
+      213: -5249948014173231022
+    second: Old hero_144
+  - first:
+      213: 4998693402533144568
+    second: Old hero_145
+  - first:
+      213: -7876109876887243234
+    second: Old hero_146
+  - first:
+      213: 6495101367926827267
+    second: Old hero_147
+  - first:
+      213: -8561327787127494608
+    second: Old hero_148
+  - first:
+      213: -4204719739138052202
+    second: Old hero_149
+  - first:
+      213: -7515183242220129439
+    second: Old hero_150
+  - first:
+      213: 4868844424563337363
+    second: Old hero_151
+  - first:
+      213: -8545034104750087359
+    second: Old hero_152
+  - first:
+      213: -484833331492507417
+    second: Old hero_153
+  - first:
+      213: -5643061155354908747
+    second: Old hero_154
+  - first:
+      213: 1070255503798163930
+    second: Old hero_155
+  - first:
+      213: -5111470790693603467
+    second: Old hero_156
+  - first:
+      213: 4102560949547355216
+    second: Old hero_157
+  - first:
+      213: -1192275825740618852
+    second: Old hero_158
+  - first:
+      213: 3239604480671128600
+    second: Old hero_159
+  - first:
+      213: 4776428472110967279
+    second: Old hero_160
+  - first:
+      213: 4156294132645160561
+    second: Old hero_161
+  - first:
+      213: 2978571520127440484
+    second: Old hero_162
+  - first:
+      213: -1705633355441059575
+    second: Old hero_163
+  - first:
+      213: -32180599396763627
+    second: Old hero_164
+  - first:
+      213: 2129413396814648946
+    second: Old hero_165
+  - first:
+      213: 4628162670346582638
+    second: Old hero_166
+  - first:
+      213: 6749175294204963209
+    second: Old hero_167
+  - first:
+      213: -8035936292079223323
+    second: Old hero_168
+  - first:
+      213: 6174242428402931659
+    second: Old hero_169
+  - first:
+      213: 2794287118705462002
+    second: Old hero_170
+  - first:
+      213: -3404048318514268949
+    second: Old hero_171
+  - first:
+      213: 1063621964320793006
+    second: Old hero_172
+  - first:
+      213: 2587023109463318745
+    second: Old hero_173
+  - first:
+      213: 420501891463997704
+    second: Old hero_174
+  - first:
+      213: 3302603040092807536
+    second: Old hero_175
+  - first:
+      213: -6368462273096737470
+    second: Old hero_176
+  - first:
+      213: -7906382183261698751
+    second: Old hero_177
+  - first:
+      213: 2432126813193543570
+    second: Old hero_178
+  - first:
+      213: 1455638894907561970
+    second: Old hero_179
+  - first:
+      213: 7016176245889133428
+    second: Old hero_180
+  - first:
+      213: 5250373638369462843
+    second: Old hero_181
+  - first:
+      213: 605714205201811814
+    second: Old hero_182
+  - first:
+      213: -2003971479535518683
+    second: Old hero_183
+  - first:
+      213: -8700326300882928084
+    second: Old hero_184
+  - first:
+      213: -4167395869332332158
+    second: Old hero_185
+  - first:
+      213: 7398593108366084996
+    second: Old hero_186
+  - first:
+      213: 4985739596816479662
+    second: Old hero_187
+  - first:
+      213: 6329664415613248446
+    second: Old hero_188
+  - first:
+      213: 6827204296542198165
+    second: Old hero_189
+  - first:
+      213: 6144289329868145583
+    second: Old hero_190
+  - first:
+      213: 7896417611901436843
+    second: Old hero_191
+  - first:
+      213: -7389305602732260533
+    second: Old hero_192
+  - first:
+      213: -9174978887711177129
+    second: Old hero_193
+  - first:
+      213: -2534012782545736071
+    second: Old hero_194
+  - first:
+      213: 4588630957943729660
+    second: Old hero_195
+  - first:
+      213: 6372956555116778644
+    second: Old hero_196
+  - first:
+      213: 7578449351562314499
+    second: Old hero_197
+  - first:
+      213: 5466346365499824978
+    second: Old hero_198
+  - first:
+      213: 1232843002150100450
+    second: Old hero_199
+  - first:
+      213: 7567623496180445462
+    second: Old hero_200
+  - first:
+      213: 1337847205670865153
+    second: Old hero_201
+  - first:
+      213: 3347513922924067265
+    second: Old hero_202
+  - first:
+      213: -4600089036919200998
+    second: Old hero_203
+  - first:
+      213: 7797959402126119760
+    second: Old hero_204
+  - first:
+      213: -2440509099613173640
+    second: Old hero_205
+  - first:
+      213: -4306150602765375172
+    second: Old hero_206
+  - first:
+      213: 3641282462292983875
+    second: Old hero_207
+  - first:
+      213: -8714014731827069699
+    second: Old hero_208
+  - first:
+      213: 891596018825450229
+    second: Old hero_209
+  - first:
+      213: 1461326584762686148
+    second: Old hero_210
+  - first:
+      213: -7458653638943029179
+    second: Old hero_211
+  - first:
+      213: -6446566420387693155
+    second: Old hero_212
+  - first:
+      213: -5268378541116433161
+    second: Old hero_213
+  - first:
+      213: 3268826413786943017
+    second: Old hero_214
+  - first:
+      213: 1340533371123128935
+    second: Old hero_215
+  - first:
+      213: 5022272366661593326
+    second: Old hero_216
+  - first:
+      213: -9024602479582752251
+    second: Old hero_217
+  - first:
+      213: 248811298801687212
+    second: Old hero_218
+  - first:
+      213: 3158919938162653284
+    second: Old hero_219
+  - first:
+      213: 7833687428374499291
+    second: Old hero_220
+  - first:
+      213: 7749515059542365451
+    second: Old hero_221
+  - first:
+      213: -6042933252194105432
+    second: Old hero_222
+  - first:
+      213: 8508270182201718424
+    second: Old hero_223
+  - first:
+      213: 288162327493946741
+    second: Old hero_224
+  - first:
+      213: -6052944990244052582
+    second: Old hero_225
+  - first:
+      213: 5088092234468213380
+    second: Old hero_226
+  - first:
+      213: 3537347707420849262
+    second: Old hero_227
+  - first:
+      213: 3938090417553515098
+    second: Old hero_228
+  - first:
+      213: 3119704042871069462
+    second: Old hero_229
+  - first:
+      213: 7402076434129792759
+    second: Old hero_230
+  - first:
+      213: 6719219384781499004
+    second: Old hero_231
+  - first:
+      213: -200244237112743299
+    second: Old hero_232
+  - first:
+      213: -9203969553315735124
+    second: Old hero_233
+  - first:
+      213: 4557089690142695025
+    second: Old hero_234
+  - first:
+      213: -742257785694160954
+    second: Old hero_235
+  - first:
+      213: -6871024898115642292
+    second: Old hero_236
+  - first:
+      213: -1465650640961631284
+    second: Old hero_237
+  - first:
+      213: 4780557934878666555
+    second: Old hero_238
+  - first:
+      213: 3498870369986563357
+    second: Old hero_239
+  - first:
+      213: 8239739581936204309
+    second: Old hero_240
+  - first:
+      213: 3688489284402901333
+    second: Old hero_241
+  - first:
+      213: -8803800881601108742
+    second: Old hero_242
+  - first:
+      213: 580392842920759949
+    second: Old hero_243
+  - first:
+      213: 7671114533208831224
+    second: Old hero_244
+  - first:
+      213: 7624130465597285660
+    second: Old hero_245
+  - first:
+      213: -6114802973818290176
+    second: Old hero_246
+  - first:
+      213: -1819966914732999890
+    second: Old hero_247
+  - first:
+      213: 8208535192413709434
+    second: Old hero_248
+  - first:
+      213: -5091710611916775918
+    second: Old hero_249
+  - first:
+      213: 6067437886813336869
+    second: Old hero_250
+  - first:
+      213: 4832184893342126462
+    second: Old hero_251
+  - first:
+      213: -6882753365471547614
+    second: Old hero_252
+  - first:
+      213: -5181606074051424282
+    second: Old hero_253
+  - first:
+      213: 8064809326708749820
+    second: Old hero_254
+  - first:
+      213: -4470201693295847454
+    second: Old hero_255
+  - first:
+      213: 3071298645128924997
+    second: Old hero_256
+  - first:
+      213: -3960250112854055895
+    second: Old hero_257
+  - first:
+      213: 1956703107019408048
+    second: Old hero_258
+  - first:
+      213: -60578133850514529
+    second: Old hero_259
+  - first:
+      213: 5039588978717281447
+    second: Old hero_260
+  - first:
+      213: 6207984900094239154
+    second: Old hero_261
+  - first:
+      213: -1209687982643506791
+    second: Old hero_262
+  - first:
+      213: -1662627532157175255
+    second: Old hero_263
+  - first:
+      213: -5924888102377365957
+    second: Old hero_264
+  - first:
+      213: -5017199384508452646
+    second: Old hero_265
+  - first:
+      213: -4154240455547173761
+    second: Old hero_266
+  - first:
+      213: 4620572950602453022
+    second: Old hero_267
+  - first:
+      213: -4143097399947919823
+    second: Old hero_268
+  - first:
+      213: -7406842363021888514
+    second: Old hero_269
+  - first:
+      213: 3264723475760610749
+    second: Old hero_270
+  - first:
+      213: 725958902198436594
+    second: Old hero_271
+  - first:
+      213: -1405358742283240844
+    second: Old hero_272
+  - first:
+      213: 6964704967333124803
+    second: Old hero_273
+  - first:
+      213: 4217812906280629607
+    second: Old hero_274
+  - first:
+      213: -2705634023128537668
+    second: Old hero_275
+  - first:
+      213: 3861119538988348843
+    second: Old hero_276
+  - first:
+      213: -5090957404140552769
+    second: Old hero_277
+  - first:
+      213: 887767922199079927
+    second: Old hero_278
+  - first:
+      213: -7193314088080177976
+    second: Old hero_279
+  - first:
+      213: -8580693595220478907
+    second: Old hero_280
+  - first:
+      213: 302426526069450253
+    second: Old hero_281
+  - first:
+      213: -6682466758052876034
+    second: Old hero_282
+  - first:
+      213: 7054795148493070863
+    second: Old hero_283
+  - first:
+      213: 6201237049620349700
+    second: Old hero_284
+  - first:
+      213: -66377307785344378
+    second: Old hero_285
+  - first:
+      213: 5129083971257737526
+    second: Old hero_286
+  - first:
+      213: -2706635857666839044
+    second: Old hero_287
+  - first:
+      213: 3185430646411225493
+    second: Old hero_288
+  - first:
+      213: 5510055680821060976
+    second: Old hero_289
+  - first:
+      213: -6031129988582868943
+    second: Old hero_290
+  - first:
+      213: 5957947576988634599
+    second: Old hero_291
+  - first:
+      213: 7937492768164792577
+    second: Old hero_292
+  - first:
+      213: 2740717743281074204
+    second: Old hero_293
+  - first:
+      213: -61911750078814325
+    second: Old hero_294
+  - first:
+      213: 3037112169517557444
+    second: Old hero_295
+  - first:
+      213: 7540396305924941628
+    second: Old hero_296
+  - first:
+      213: -1589991205153711992
+    second: Old hero_297
+  - first:
+      213: -6091962483034480394
+    second: Old hero_298
+  - first:
+      213: 4980484570642416104
+    second: Old hero_299
+  - first:
+      213: 5600282464483022978
+    second: Old hero_300
+  - first:
+      213: -1184690762205832666
+    second: Old hero_301
+  - first:
+      213: 3028536137695260611
+    second: Old hero_302
+  - first:
+      213: 7740470879775303696
+    second: Old hero_303
+  - first:
+      213: 7458536679177601931
+    second: Old hero_304
+  - first:
+      213: 2059704982643544166
+    second: Old hero_305
+  - first:
+      213: -1403883986397234201
+    second: Old hero_306
+  - first:
+      213: -4585480159652629640
+    second: Old hero_307
+  - first:
+      213: -8670393684808349914
+    second: Old hero_308
+  - first:
+      213: -7261778019265454733
+    second: Old hero_309
+  - first:
+      213: 3226564993614283369
+    second: Old hero_310
+  - first:
+      213: -8277670448073679688
+    second: Old hero_311
+  - first:
+      213: -4246382675007478433
+    second: Old hero_312
+  - first:
+      213: 493316933964266128
+    second: Old hero_313
+  - first:
+      213: -7690002638518845228
+    second: Old hero_314
+  - first:
+      213: -7096591731491592028
+    second: Old hero_315
+  - first:
+      213: -815064142077222669
+    second: Old hero_316
+  - first:
+      213: -5308307579421321414
+    second: Old hero_317
+  - first:
+      213: 6329482352441566551
+    second: Old hero_318
+  - first:
+      213: 5479338049084683167
+    second: Old hero_319
+  - first:
+      213: 5732042278373849321
+    second: Old hero_320
+  - first:
+      213: -6457165611634166603
+    second: Old hero_321
+  - first:
+      213: -8643689680116860718
+    second: Old hero_322
+  - first:
+      213: 3921149270353621047
+    second: Old hero_323
+  - first:
+      213: 5559678012947133952
+    second: Old hero_324
+  - first:
+      213: -3958686361196850638
+    second: Old hero_325
+  - first:
+      213: -3179947135663417469
+    second: Old hero_326
+  - first:
+      213: 8777236095806468211
+    second: Old hero_327
+  - first:
+      213: -9149965003378495992
+    second: Old hero_328
+  - first:
+      213: 2706923353325231414
+    second: Old hero_329
+  - first:
+      213: 650506286982227416
+    second: Old hero_330
+  - first:
+      213: -7620444705615851070
+    second: Old hero_331
+  - first:
+      213: 3050818408698320847
+    second: Old hero_332
+  - first:
+      213: -2902780470142370407
+    second: Old hero_333
+  - first:
+      213: 7680570625548723595
+    second: Old hero_334
+  - first:
+      213: -8399659071304869551
+    second: Old hero_335
+  - first:
+      213: -3476424058255778449
+    second: Old hero_336
+  - first:
+      213: 3740297067681490040
+    second: Old hero_337
+  - first:
+      213: -1549209438381679136
+    second: Old hero_338
+  - first:
+      213: 4380944166573383060
+    second: Old hero_339
+  - first:
+      213: -5585330746384027266
+    second: Old hero_340
+  - first:
+      213: -4662204727188869055
+    second: Old hero_341
+  - first:
+      213: 7713507819083560795
+    second: Old hero_342
+  - first:
+      213: -3976759778040105132
+    second: Old hero_343
+  - first:
+      213: 6403315499019646011
+    second: Old hero_344
+  - first:
+      213: 1599958751492469418
+    second: Old hero_345
+  - first:
+      213: -7404157349943766682
+    second: Old hero_346
+  - first:
+      213: -6417602658189439035
+    second: Old hero_347
+  - first:
+      213: -1983998875649067626
+    second: Old hero_348
+  - first:
+      213: 747937180750045803
+    second: Old hero_349
+  - first:
+      213: -2577650745151781230
+    second: Old hero_350
+  - first:
+      213: 3267941881969415261
+    second: Old hero_351
+  - first:
+      213: 7535914721700586168
+    second: Old hero_352
+  - first:
+      213: -6816662590145271249
+    second: Old hero_353
+  - first:
+      213: 4575468691240763083
+    second: Old hero_354
+  - first:
+      213: 4184776346788924196
+    second: Old hero_355
+  - first:
+      213: 3636188644764181490
+    second: Old hero_356
+  - first:
+      213: -1321494474849647727
+    second: Old hero_357
+  - first:
+      213: -4961603560655061078
+    second: Old hero_358
+  - first:
+      213: 2443608809056949658
+    second: Old hero_359
+  - first:
+      213: 8628500988841106284
+    second: Old hero_360
+  - first:
+      213: 2878050259127764999
+    second: Old hero_361
+  - first:
+      213: 5238163047303722881
+    second: Old hero_362
+  - first:
+      213: 1512208264076153928
+    second: Old hero_363
+  - first:
+      213: 7036778307873167869
+    second: Old hero_364
+  - first:
+      213: -4201555261257105920
+    second: Old hero_365
+  - first:
+      213: 4149171932877527543
+    second: Old hero_366
+  - first:
+      213: -1739933791619044540
+    second: Old hero_367
+  - first:
+      213: -4910351652918285275
+    second: Old hero_368
+  - first:
+      213: -5923377007665708997
+    second: Old hero_369
+  - first:
+      213: 4085400965335963875
+    second: Old hero_370
+  - first:
+      213: 2915494179526052752
+    second: Old hero_371
+  - first:
+      213: 3766295152554292199
+    second: Old hero_372
+  - first:
+      213: -2716951478432363819
+    second: Old hero_373
+  - first:
+      213: -1634707386353748227
+    second: Old hero_374
+  - first:
+      213: 7473371316018346510
+    second: Old hero_375
+  - first:
+      213: 6582540206543259966
+    second: Old hero_376
+  - first:
+      213: -5897040746406063249
+    second: Old hero_377
+  - first:
+      213: 7127062232651597770
+    second: Old hero_378
+  - first:
+      213: 7540904301971328035
+    second: Old hero_379
+  - first:
+      213: 2050718065842745374
+    second: Old hero_380
+  - first:
+      213: 2642162635242367876
+    second: Old hero_381
+  - first:
+      213: 6969247521756186270
+    second: Old hero_382
+  - first:
+      213: 7014429913913339507
+    second: Old hero_383
+  - first:
+      213: 563616530343418843
+    second: Old hero_384
+  - first:
+      213: 4662001770893237939
+    second: Old hero_385
+  - first:
+      213: -8816419953386007315
+    second: Old hero_386
+  - first:
+      213: 919062093755608678
+    second: Old hero_387
+  - first:
+      213: -7170195871770412200
+    second: Old hero_388
+  - first:
+      213: -7322524421004191576
+    second: Old hero_389
+  - first:
+      213: -5830523010068601865
+    second: Old hero_390
+  - first:
+      213: -470497143228182041
+    second: Old hero_391
+  - first:
+      213: 3256880430113272759
+    second: Old hero_392
+  - first:
+      213: 1629321706003335319
+    second: Old hero_393
+  - first:
+      213: 201927529069502766
+    second: Old hero_394
+  - first:
+      213: -2264645731639256830
+    second: Old hero_395
+  - first:
+      213: -7550564894021232287
+    second: Old hero_396
+  - first:
+      213: -6705395946847249089
+    second: Old hero_397
+  - first:
+      213: -6841664838330820876
+    second: Old hero_398
+  - first:
+      213: -5129812536508193777
+    second: Old hero_399
+  - first:
+      213: -3860020866846422978
+    second: Old hero_400
+  - first:
+      213: 8901460255401568016
+    second: Old hero_401
+  - first:
+      213: 2860134864029753787
+    second: Old hero_402
+  - first:
+      213: 5717883987336603977
+    second: Old hero_403
+  - first:
+      213: 3823684958293045131
+    second: Old hero_404
+  - first:
+      213: -7910379975462336637
+    second: Old hero_405
+  - first:
+      213: 8062345333693901612
+    second: Old hero_406
+  - first:
+      213: 715584971540863144
+    second: Old hero_407
+  - first:
+      213: -8496489675134843895
+    second: Old hero_408
+  - first:
+      213: 267928770959451794
+    second: Old hero_409
+  - first:
+      213: -1367373350623966214
+    second: Old hero_410
+  - first:
+      213: 4763430416556848121
+    second: Old hero_411
+  - first:
+      213: -7632817345790816495
+    second: Old hero_412
+  - first:
+      213: -131025682440632379
+    second: Old hero_413
+  - first:
+      213: -6124469569618687979
+    second: Old hero_414
+  - first:
+      213: -6095675763594908449
+    second: Old hero_415
+  - first:
+      213: 6585356808362222359
+    second: Old hero_416
+  - first:
+      213: -5336647693860881860
+    second: Old hero_417
+  - first:
+      213: -38117926662598767
+    second: Old hero_418
+  - first:
+      213: 37660067685958314
+    second: Old hero_419
+  - first:
+      213: -96079757182486860
+    second: Old hero_420
+  - first:
+      213: -4631975651807847607
+    second: Old hero_421
+  - first:
+      213: 7885029362903685518
+    second: Old hero_422
+  - first:
+      213: 1684218194712207739
+    second: Old hero_423
+  - first:
+      213: -2811166184740000447
+    second: Old hero_424
+  - first:
+      213: -5653028607524605954
+    second: Old hero_425
+  - first:
+      213: -4541653823307036848
+    second: Old hero_426
+  - first:
+      213: -7012030704714096941
+    second: Old hero_427
+  - first:
+      213: -7383344346107153840
+    second: Old hero_428
+  - first:
+      213: 6720991764684102624
+    second: Old hero_429
+  - first:
+      213: 2757989727349535207
+    second: Old hero_430
+  - first:
+      213: -4373263316327417042
+    second: Old hero_431
+  - first:
+      213: -4350465100658583699
+    second: Old hero_432
+  - first:
+      213: -8628250785282467729
+    second: Old hero_433
+  - first:
+      213: -2934297623093357670
+    second: Old hero_434
+  - first:
+      213: 36990300996811075
+    second: Old hero_435
+  - first:
+      213: 2605884785347327701
+    second: Old hero_436
+  - first:
+      213: 4988662748598056619
+    second: Old hero_437
+  - first:
+      213: 6977865842898342149
+    second: Old hero_438
+  - first:
+      213: 1969574664168538148
+    second: Old hero_439
+  - first:
+      213: -8253521809223585874
+    second: Old hero_440
+  - first:
+      213: -393508731775276954
+    second: Old hero_441
+  - first:
+      213: -8752157882301056984
+    second: Old hero_442
+  - first:
+      213: -325582179475235116
+    second: Old hero_443
+  - first:
+      213: -4359222355344221275
+    second: Old hero_444
+  - first:
+      213: 1884499738424238914
+    second: Old hero_445
+  - first:
+      213: 6061830945539277283
+    second: Old hero_446
+  - first:
+      213: -3541833703357593702
+    second: Old hero_447
+  - first:
+      213: -2866469864445508429
+    second: Old hero_448
+  - first:
+      213: 2912928710883939335
+    second: Old hero_449
+  - first:
+      213: -5599680926197733935
+    second: Old hero_450
+  - first:
+      213: -1213626031375270795
+    second: Old hero_451
+  - first:
+      213: -2017728795890737424
+    second: Old hero_452
+  - first:
+      213: 8336441360279644470
+    second: Old hero_453
+  - first:
+      213: -906180065759312342
+    second: Old hero_454
+  - first:
+      213: 6770597466104660205
+    second: Old hero_455
+  - first:
+      213: -615963037054087999
+    second: Old hero_456
+  - first:
+      213: 1968566158136648107
+    second: Old hero_457
+  - first:
+      213: 4756558137746034014
+    second: Old hero_458
+  - first:
+      213: -3843589233201802851
+    second: Old hero_459
+  - first:
+      213: 2741466787846389898
+    second: Old hero_460
+  - first:
+      213: -2110765915367386080
+    second: Old hero_461
+  - first:
+      213: 4774256832459573020
+    second: Old hero_462
+  - first:
+      213: 1636918029882078733
+    second: Old hero_463
+  - first:
+      213: 570885297125834522
+    second: Old hero_464
+  - first:
+      213: -5003777953735258106
+    second: Old hero_465
+  - first:
+      213: -6805785799091899773
+    second: Old hero_466
+  - first:
+      213: 2399386216147786175
+    second: Old hero_467
+  - first:
+      213: -1154601639399109107
+    second: Old hero_468
+  - first:
+      213: -8115068445853385589
+    second: Old hero_469
+  - first:
+      213: 9019672984161196959
+    second: Old hero_470
+  - first:
+      213: -843925194918492560
+    second: Old hero_471
+  - first:
+      213: -2045232388419285120
+    second: Old hero_472
+  - first:
+      213: 8473042223203733416
+    second: Old hero_473
+  - first:
+      213: -1393121921100084336
+    second: Old hero_474
+  - first:
+      213: 6724367329665789974
+    second: Old hero_475
+  - first:
+      213: -8070906934176406027
+    second: Old hero_476
+  - first:
+      213: -3179107971291006522
+    second: Old hero_477
+  - first:
+      213: -7953699684136792986
+    second: Old hero_478
+  - first:
+      213: -2275966060158971054
+    second: Old hero_479
+  - first:
+      213: -8577307871800968070
+    second: Old hero_480
+  - first:
+      213: -1392341031487700740
+    second: Old hero_481
+  - first:
+      213: 3316991820350619328
+    second: Old hero_482
+  - first:
+      213: 7356293235782296215
+    second: Old hero_483
+  - first:
+      213: 5873521086468660383
+    second: Old hero_484
+  - first:
+      213: 5562309992166065517
+    second: Old hero_485
+  - first:
+      213: 4027063691026050464
+    second: Old hero_486
+  - first:
+      213: 6826941229687599853
+    second: Old hero_487
+  - first:
+      213: -7217205030156446600
+    second: Old hero_488
+  - first:
+      213: 1659404322693372328
+    second: Old hero_489
+  - first:
+      213: -9082690523682853002
+    second: Old hero_490
+  - first:
+      213: 762013159665867401
+    second: Old hero_491
+  - first:
+      213: -7529986804710544601
+    second: Old hero_492
+  - first:
+      213: -5276757784492799055
+    second: Old hero_493
+  - first:
+      213: 5720127502136652114
+    second: Old hero_494
+  - first:
+      213: 3203716067663753067
+    second: Old hero_495
+  - first:
+      213: 7011692812238815793
+    second: Old hero_496
+  - first:
+      213: -3421643771599289649
+    second: Old hero_497
+  - first:
+      213: 6989084549279577714
+    second: Old hero_498
+  - first:
+      213: -1130546667633368117
+    second: Old hero_499
+  - first:
+      213: -4318375433488719522
+    second: Old hero_500
+  - first:
+      213: -3785769770540671583
+    second: Old hero_501
+  - first:
+      213: 6517035948902354573
+    second: Old hero_502
+  - first:
+      213: -6356626731760935459
+    second: Old hero_503
+  - first:
+      213: 8231909901211100685
+    second: Old hero_504
+  - first:
+      213: 3228629081488343476
+    second: Old hero_505
+  - first:
+      213: 7555333134185596069
+    second: Old hero_506
+  - first:
+      213: 6854995462699237755
+    second: Old hero_507
+  - first:
+      213: -8555326699229138289
+    second: Old hero_508
+  - first:
+      213: 2506097442166385178
+    second: Old hero_509
+  - first:
+      213: 5921003090790339218
+    second: Old hero_510
+  - first:
+      213: -5975395260302263036
+    second: Old hero_511
+  - first:
+      213: -3338293689275870080
+    second: Old hero_512
+  - first:
+      213: 4491777849603608174
+    second: Old hero_513
+  - first:
+      213: -6585217821540755440
+    second: Old hero_514
+  - first:
+      213: -8073267795290967406
+    second: Old hero_515
+  - first:
+      213: 136493261277226532
+    second: Old hero_516
+  - first:
+      213: 1358295838462731143
+    second: Old hero_517
+  - first:
+      213: 5277821563235134869
+    second: Old hero_518
+  - first:
+      213: 5968085136266431836
+    second: Old hero_519
+  - first:
+      213: -9104963152289730518
+    second: Old hero_520
+  - first:
+      213: -2507192860362415937
+    second: Old hero_521
+  - first:
+      213: -4633109413096950295
+    second: Old hero_522
+  - first:
+      213: 2802119163252346716
+    second: Old hero_523
+  - first:
+      213: -4950535779631893796
+    second: Old hero_524
+  - first:
+      213: -5529853495590710651
+    second: Old hero_525
+  - first:
+      213: -7961105730731553514
+    second: Old hero_526
+  - first:
+      213: 9032250571225127858
+    second: Old hero_527
+  - first:
+      213: -2340268421430698915
+    second: Old hero_528
+  - first:
+      213: 8864587395423828316
+    second: Old hero_529
+  - first:
+      213: 6706089152574770308
+    second: Old hero_530
+  - first:
+      213: 799389688414360598
+    second: Old hero_531
+  - first:
+      213: -1958006036821207228
+    second: Old hero_532
+  - first:
+      213: 6956324257628461936
+    second: Old hero_533
+  - first:
+      213: 6528046681378416722
+    second: Old hero_534
+  - first:
+      213: -8406443063047816103
+    second: Old hero_535
+  - first:
+      213: -6585548020037410318
+    second: Old hero_536
+  - first:
+      213: 1030361047102208524
+    second: Old hero_537
+  - first:
+      213: -2339607629767527751
+    second: Old hero_538
+  - first:
+      213: 153999712533964535
+    second: Old hero_539
+  - first:
+      213: -1668702214055534817
+    second: Old hero_540
+  - first:
+      213: -2661874069544148089
+    second: Old hero_541
+  - first:
+      213: 3626557986021793704
+    second: Old hero_542
+  - first:
+      213: -7382606453822908301
+    second: Old hero_543
+  - first:
+      213: 8544477069174628641
+    second: Old hero_544
+  - first:
+      213: 5872228773456518498
+    second: Old hero_545
+  - first:
+      213: -591636394501440817
+    second: Old hero_546
+  - first:
+      213: 8331952872707228293
+    second: Old hero_547
+  - first:
+      213: 4679535377576079305
+    second: Old hero_548
+  - first:
+      213: -1111605034670669981
+    second: Old hero_549
+  - first:
+      213: 3100922652082406059
+    second: Old hero_550
+  - first:
+      213: -4960704187512008615
+    second: Old hero_551
+  - first:
+      213: 2594422096543925160
+    second: Old hero_552
+  - first:
+      213: 4171508317707783991
+    second: Old hero_553
+  - first:
+      213: 7966917596011744151
+    second: Old hero_554
+  - first:
+      213: -6506648246565815352
+    second: Old hero_555
+  - first:
+      213: -6660136040086971632
+    second: Old hero_556
+  - first:
+      213: -4539607509465248116
+    second: Old hero_557
+  - first:
+      213: -5491873830233679323
+    second: Old hero_558
+  - first:
+      213: -4076108008765818958
+    second: Old hero_559
+  - first:
+      213: -3326190145560384813
+    second: Old hero_560
+  - first:
+      213: -3920045457117949324
+    second: Old hero_561
+  - first:
+      213: 4167230402987993278
+    second: Old hero_562
+  - first:
+      213: 6508782794500931203
+    second: Old hero_563
+  - first:
+      213: -3350718092359654264
+    second: Old hero_564
+  - first:
+      213: -588071064877234008
+    second: Old hero_565
+  - first:
+      213: -4500072826345000172
+    second: Old hero_566
+  - first:
+      213: -3852519790744678291
+    second: Old hero_567
+  - first:
+      213: -9053843916914148856
+    second: Old hero_568
+  - first:
+      213: -551871856159753807
+    second: Old hero_569
+  - first:
+      213: -3446996050998567273
+    second: Old hero_570
+  - first:
+      213: -823206925758995640
+    second: Old hero_571
+  - first:
+      213: 600569678987994479
+    second: Old hero_572
+  - first:
+      213: 407660030602701424
+    second: Old hero_573
+  - first:
+      213: -5322333173810009494
+    second: Old hero_574
+  - first:
+      213: -2846179886619343803
+    second: Old hero_575
+  - first:
+      213: 3016304741848939799
+    second: Old hero_576
+  - first:
+      213: 6143455063589820307
+    second: Old hero_577
+  - first:
+      213: -5669435358831208179
+    second: Old hero_578
+  - first:
+      213: -3990405845780988395
+    second: Old hero_579
+  - first:
+      213: -7471895144231282538
+    second: Old hero_580
+  - first:
+      213: -4621196374655525528
+    second: Old hero_581
+  - first:
+      213: -5645732345306374685
+    second: Old hero_582
+  - first:
+      213: -4849106176157293017
+    second: Old hero_583
+  - first:
+      213: -8664367751439473809
+    second: Old hero_584
+  - first:
+      213: -2937041612457460340
+    second: Old hero_585
+  - first:
+      213: -6685223211329363586
+    second: Old hero_586
+  - first:
+      213: -2369797383301570268
+    second: Old hero_587
+  - first:
+      213: -8672904424385310748
+    second: Old hero_588
+  - first:
+      213: -3985869719557150209
+    second: Old hero_589
+  - first:
+      213: -5855688898560643286
+    second: Old hero_590
+  - first:
+      213: -3342633210409266605
+    second: Old hero_591
+  - first:
+      213: 4871046621731941256
+    second: Old hero_592
+  - first:
+      213: 6638045720748265078
+    second: Old hero_593
+  - first:
+      213: -3125809472552986273
+    second: Old hero_594
+  - first:
+      213: 9142117579083759601
+    second: Old hero_595
+  - first:
+      213: 7579403352438877604
+    second: Old hero_596
+  - first:
+      213: -3246629872022473125
+    second: Old hero_597
+  - first:
+      213: 6075203613600000611
+    second: Old hero_598
+  - first:
+      213: 1912317430729747277
+    second: Old hero_599
+  - first:
+      213: 5746009285047754244
+    second: Old hero_600
+  - first:
+      213: 152046865830778088
+    second: Old hero_601
+  - first:
+      213: 5911779836610426501
+    second: Old hero_602
+  - first:
+      213: -9081131099452964502
+    second: Old hero_603
+  - first:
+      213: -7632398736964317689
+    second: Old hero_604
+  - first:
+      213: 859386588305485967
+    second: Old hero_605
+  - first:
+      213: 3683024790690386623
+    second: Old hero_606
+  - first:
+      213: -6588513868150194450
+    second: Old hero_607
+  - first:
+      213: -6304906862002614057
+    second: Old hero_608
+  - first:
+      213: -1841770912756949521
+    second: Old hero_609
+  - first:
+      213: 6170111669721218823
+    second: Old hero_610
+  - first:
+      213: 6994887286119577867
+    second: Old hero_611
+  - first:
+      213: 3481840056933522116
+    second: Old hero_612
+  - first:
+      213: -1023956633260852592
+    second: Old hero_613
+  - first:
+      213: -5750715020765105825
+    second: Old hero_614
+  - first:
+      213: -7969878448361680254
+    second: Old hero_615
+  - first:
+      213: -4673737569059221868
+    second: Old hero_616
+  - first:
+      213: 7600065600925982117
+    second: Old hero_617
+  - first:
+      213: 8208193670151612926
+    second: Old hero_618
+  - first:
+      213: -5274514770775709361
+    second: Old hero_619
+  - first:
+      213: -8960563657729476104
+    second: Old hero_620
+  - first:
+      213: -1884740914455514982
+    second: Old hero_621
+  - first:
+      213: 7100858714077111574
+    second: Old hero_622
+  - first:
+      213: -2393202745638969177
+    second: Old hero_623
+  - first:
+      213: 4332248054714713145
+    second: Old hero_624
+  - first:
+      213: -2156999917127870497
+    second: Old hero_625
+  - first:
+      213: -692784696640236465
+    second: Old hero_626
+  - first:
+      213: 7557222217965245687
+    second: Old hero_627
+  - first:
+      213: -2348665729136579323
+    second: Old hero_628
+  - first:
+      213: -1733461717034046840
+    second: Old hero_629
+  - first:
+      213: -4477106653067574891
+    second: Old hero_630
+  - first:
+      213: -7119346167411546147
+    second: Old hero_631
+  - first:
+      213: 2790217075755527208
+    second: Old hero_632
+  - first:
+      213: 6437177473237478581
+    second: Old hero_633
+  - first:
+      213: -5409986133658637792
+    second: Old hero_634
+  - first:
+      213: 6045513704127716173
+    second: Old hero_635
+  - first:
+      213: -6174682292095058361
+    second: Old hero_636
+  - first:
+      213: -1325568607796342138
+    second: Old hero_637
+  - first:
+      213: -243656077969197278
+    second: Old hero_638
+  - first:
+      213: -7103763849871861688
+    second: Old hero_639
+  - first:
+      213: 8338766944204078599
+    second: Old hero_640
+  - first:
+      213: -6935069936966859442
+    second: Old hero_641
+  - first:
+      213: 1564555470731936670
+    second: Old hero_642
+  - first:
+      213: -7259801775564307289
+    second: Old hero_643
+  - first:
+      213: -6010211522773359964
+    second: Old hero_644
+  - first:
+      213: -7938843613972804840
+    second: Old hero_645
+  - first:
+      213: -4676234120065907033
+    second: Old hero_646
+  - first:
+      213: -8613137944577469387
+    second: Old hero_647
+  - first:
+      213: -4069794746518304986
+    second: Old hero_648
+  - first:
+      213: 5910548609915645314
+    second: Old hero_649
+  - first:
+      213: -2173732947115012429
+    second: Old hero_650
+  - first:
+      213: -2183023151671106680
+    second: Old hero_651
+  - first:
+      213: 7448004160221854492
+    second: Old hero_652
+  - first:
+      213: -497648826443400835
+    second: Old hero_653
+  - first:
+      213: -3766259590087245254
+    second: Old hero_654
+  - first:
+      213: 7716796382357426219
+    second: Old hero_655
+  - first:
+      213: -3767122714072294730
+    second: Old hero_656
+  - first:
+      213: 8790916288871003274
+    second: Old hero_657
+  - first:
+      213: 7374300795091747461
+    second: Old hero_658
+  - first:
+      213: -7526481665752589928
+    second: Old hero_659
+  - first:
+      213: -4120760852381304127
+    second: Old hero_660
+  - first:
+      213: -3323759509626150639
+    second: Old hero_661
+  - first:
+      213: -5527535251235262267
+    second: Old hero_662
+  - first:
+      213: -7838893377072179117
+    second: Old hero_663
+  - first:
+      213: -4515470100234749706
+    second: Old hero_664
+  - first:
+      213: 7111480321637222462
+    second: Old hero_665
+  - first:
+      213: -9094042894390278336
+    second: Old hero_666
+  - first:
+      213: 5036326320334078122
+    second: Old hero_667
+  - first:
+      213: 3875553987319159976
+    second: Old hero_668
+  - first:
+      213: 4083588768597455631
+    second: Old hero_669
+  - first:
+      213: -1596802592930822336
+    second: Old hero_670
+  - first:
+      213: -6964383493127991064
+    second: Old hero_671
+  - first:
+      213: -504443876591123738
+    second: Old hero_672
+  - first:
+      213: -699700863329937628
+    second: Old hero_673
+  - first:
+      213: -8495231775882427873
+    second: Old hero_674
+  - first:
+      213: 676027153885776898
+    second: Old hero_675
+  - first:
+      213: -4178581715485195346
+    second: Old hero_676
+  - first:
+      213: -8106669208474612931
+    second: Old hero_677
+  - first:
+      213: 2840920968792394591
+    second: Old hero_678
+  - first:
+      213: 3446109703549120746
+    second: Old hero_679
+  - first:
+      213: -9022056542983287734
+    second: Old hero_680
+  - first:
+      213: -7777754684047003953
+    second: Old hero_681
+  - first:
+      213: -3066732691293275871
+    second: Old hero_682
+  - first:
+      213: 1712444607573559385
+    second: Old hero_683
+  - first:
+      213: 5412932749633839156
+    second: Old hero_684
+  - first:
+      213: 4138120997987007859
+    second: Old hero_685
+  - first:
+      213: -1359462305806149743
+    second: Old hero_686
+  - first:
+      213: -7356165605071920043
+    second: Old hero_687
+  - first:
+      213: -5957325111218719500
+    second: Old hero_688
+  - first:
+      213: 8742942763757913964
+    second: Old hero_689
+  - first:
+      213: -1464634462556094867
+    second: Old hero_690
+  - first:
+      213: -8259668746670821552
+    second: Old hero_691
+  - first:
+      213: 4061021842861294586
+    second: Old hero_692
+  - first:
+      213: 2299665870675236014
+    second: Old hero_693
+  - first:
+      213: -5179810755958235574
+    second: Old hero_694
+  - first:
+      213: -6794214685116994783
+    second: Old hero_695
+  - first:
+      213: 7773598313951731944
+    second: Old hero_696
+  - first:
+      213: -6641186457471618461
+    second: Old hero_697
+  - first:
+      213: -2265353341167608628
+    second: Old hero_698
+  - first:
+      213: -4547055716587151642
+    second: Old hero_699
+  - first:
+      213: 7159512073468344418
+    second: Old hero_700
+  - first:
+      213: -437762335761841247
+    second: Old hero_701
+  - first:
+      213: 4224288199528780116
+    second: Old hero_702
+  - first:
+      213: -691400604925572425
+    second: Old hero_703
+  - first:
+      213: 4898379015772326366
+    second: Old hero_704
+  - first:
+      213: -6315570649157569414
+    second: Old hero_705
+  - first:
+      213: -5797965873932328115
+    second: Old hero_706
+  - first:
+      213: 5812449383259903136
+    second: Old hero_707
+  - first:
+      213: -5025727992017821866
+    second: Old hero_708
+  - first:
+      213: 8651070849726980664
+    second: Old hero_709
+  - first:
+      213: 5587829149756723036
+    second: Old hero_710
+  - first:
+      213: -7338133964710283437
+    second: Old hero_711
+  - first:
+      213: 1707892467839807767
+    second: Old hero_712
+  - first:
+      213: -1872746786104183907
+    second: Old hero_713
+  - first:
+      213: -2473195773249269419
+    second: Old hero_714
+  - first:
+      213: 3671066071646409251
+    second: Old hero_715
+  - first:
+      213: 1721900365954814868
+    second: Old hero_716
+  - first:
+      213: 5755011673864879016
+    second: Old hero_717
+  - first:
+      213: -6757395432738412452
+    second: Old hero_718
+  - first:
+      213: -4491666761476154543
+    second: Old hero_719
+  - first:
+      213: -6230948782146207240
+    second: Old hero_720
+  - first:
+      213: -1843530403204229778
+    second: Old hero_721
+  - first:
+      213: -6219191947119855225
+    second: Old hero_722
+  - first:
+      213: 6676969102607838527
+    second: Old hero_723
+  - first:
+      213: -2218695995900992524
+    second: Old hero_724
+  - first:
+      213: -705693304403863142
+    second: Old hero_725
+  - first:
+      213: 1428228561153510085
+    second: Old hero_726
+  - first:
+      213: 1372790284037401236
+    second: Old hero_727
+  - first:
+      213: 7976073197340505895
+    second: Old hero_728
+  - first:
+      213: -4591035224337149662
+    second: Old hero_729
+  - first:
+      213: 5091522513031204420
+    second: Old hero_730
+  - first:
+      213: 2144718819744131560
+    second: Old hero_731
+  - first:
+      213: 6762710302897795653
+    second: Old hero_732
+  - first:
+      213: 1776324158238661986
+    second: Old hero_733
+  - first:
+      213: -8443437840468255879
+    second: Old hero_734
+  - first:
+      213: -5952112021234029647
+    second: Old hero_735
+  - first:
+      213: -7986468145434530901
+    second: Old hero_736
+  - first:
+      213: -9104525586056728054
+    second: Old hero_737
+  - first:
+      213: 9051783459055535205
+    second: Old hero_738
+  - first:
+      213: -7219444194076014494
+    second: Old hero_739
+  - first:
+      213: 3094525840806969973
+    second: Old hero_740
+  - first:
+      213: -2608745830178773318
+    second: Old hero_741
+  - first:
+      213: -2457297640294691106
+    second: Old hero_742
+  - first:
+      213: 8341168781797979265
+    second: Old hero_743
+  - first:
+      213: -7871350358640512132
+    second: Old hero_744
+  - first:
+      213: 2331468223765461652
+    second: Old hero_745
+  - first:
+      213: -6130350823710010918
+    second: Old hero_746
+  - first:
+      213: 2609862509277039880
+    second: Old hero_747
+  - first:
+      213: 3177799668035287370
+    second: Old hero_748
+  - first:
+      213: 4318944324300890092
+    second: Old hero_749
+  - first:
+      213: 8933917977571291193
+    second: Old hero_750
+  - first:
+      213: -7163481564358989022
+    second: Old hero_751
+  - first:
+      213: 7002352986748531920
+    second: Old hero_752
+  - first:
+      213: -5302532494021845611
+    second: Old hero_753
+  - first:
+      213: -3509483365039086375
+    second: Old hero_754
+  - first:
+      213: -1468950344270430177
+    second: Old hero_755
+  - first:
+      213: 8005392943493570704
+    second: Old hero_756
+  - first:
+      213: -866303396331059017
+    second: Old hero_757
+  - first:
+      213: 126399561799413590
+    second: Old hero_758
+  - first:
+      213: -7486705126807267595
+    second: Old hero_759
+  - first:
+      213: 4677918750587729876
+    second: Old hero_760
+  - first:
+      213: 2169692243180755758
+    second: Old hero_761
+  - first:
+      213: 7038246714782460521
+    second: Old hero_762
+  - first:
+      213: -6884819115006862195
+    second: Old hero_763
+  - first:
+      213: 3601588599901172700
+    second: Old hero_764
+  - first:
+      213: 5368458524402061384
+    second: Old hero_765
+  - first:
+      213: -1791725395839373284
+    second: Old hero_766
+  - first:
+      213: 4372873260777562919
+    second: Old hero_767
+  - first:
+      213: 694570822107170037
+    second: Old hero_768
+  - first:
+      213: 8301460710075246966
+    second: Old hero_769
+  - first:
+      213: 896873716900211804
+    second: Old hero_770
+  - first:
+      213: -7665270994725858614
+    second: Old hero_771
+  - first:
+      213: -1592137980262543886
+    second: Old hero_772
+  - first:
+      213: -1695216062125788497
+    second: Old hero_773
+  - first:
+      213: -6106996903868666922
+    second: Old hero_774
+  - first:
+      213: 817197126459078062
+    second: Old hero_775
+  - first:
+      213: -5283290730611839724
+    second: Old hero_776
+  - first:
+      213: -699153685460834439
+    second: Old hero_777
+  - first:
+      213: -1589648139267059565
+    second: Old hero_778
+  - first:
+      213: -5504865648228445756
+    second: Old hero_779
+  - first:
+      213: -5415202500632518235
+    second: Old hero_780
+  - first:
+      213: -5385554842109816544
+    second: Old hero_781
+  - first:
+      213: 990031719452532369
+    second: Old hero_782
+  - first:
+      213: 3283763555509355314
+    second: Old hero_783
+  - first:
+      213: -7553528897594370567
+    second: Old hero_784
+  - first:
+      213: -1951177092385192865
+    second: Old hero_785
+  - first:
+      213: 7897739430286710052
+    second: Old hero_786
+  - first:
+      213: -1877773542285770768
+    second: Old hero_787
+  - first:
+      213: -5907313545498286178
+    second: Old hero_788
+  - first:
+      213: 4375187547008474704
+    second: Old hero_789
+  - first:
+      213: 5751083918523936400
+    second: Old hero_790
+  - first:
+      213: -7141172560980207538
+    second: Old hero_791
+  - first:
+      213: -6808321595526739095
+    second: Old hero_792
+  - first:
+      213: 7532030619741500202
+    second: Old hero_793
+  - first:
+      213: -3305159366385573215
+    second: Old hero_794
+  - first:
+      213: 8772405766783563672
+    second: Old hero_795
+  - first:
+      213: -6936552245347141236
+    second: Old hero_796
+  - first:
+      213: 5002551265732374943
+    second: Old hero_797
+  - first:
+      213: -7102135902687246091
+    second: Old hero_798
+  - first:
+      213: -6982145811668117978
+    second: Old hero_799
+  - first:
+      213: 5268120727358972541
+    second: Old hero_800
+  - first:
+      213: -8737577125083094384
+    second: Old hero_801
+  - first:
+      213: 4893703613481205103
+    second: Old hero_802
+  - first:
+      213: -8806398673223069249
+    second: Old hero_803
+  - first:
+      213: -6524003567913586938
+    second: Old hero_804
+  - first:
+      213: 7225195015502572797
+    second: Old hero_805
+  - first:
+      213: -2058837359325471505
+    second: Old hero_806
+  - first:
+      213: 6188118307710055463
+    second: Old hero_807
+  - first:
+      213: -5923381252967120138
+    second: Old hero_808
+  - first:
+      213: -8736642659504150208
+    second: Old hero_809
+  - first:
+      213: 8481915803201169450
+    second: Old hero_810
+  - first:
+      213: -7185299179255362641
+    second: Old hero_811
+  - first:
+      213: -3890276784471330978
+    second: Old hero_812
+  - first:
+      213: -595586171867616592
+    second: Old hero_813
+  - first:
+      213: -1137885637292111538
+    second: Old hero_814
+  - first:
+      213: 2178975146330934106
+    second: Old hero_815
+  - first:
+      213: 2614087173608341143
+    second: Old hero_816
+  - first:
+      213: 5481838967079404389
+    second: Old hero_817
+  - first:
+      213: -5486796334073329783
+    second: Old hero_818
+  - first:
+      213: -8535184905381841451
+    second: Old hero_819
+  - first:
+      213: -8476970209800182917
+    second: Old hero_820
+  - first:
+      213: 1683441592119448759
+    second: Old hero_821
+  - first:
+      213: -7948299199806411643
+    second: Old hero_822
+  - first:
+      213: 5780175384339121124
+    second: Old hero_823
+  - first:
+      213: 3170743833471302499
+    second: Old hero_824
+  - first:
+      213: 826699287500727554
+    second: Old hero_825
+  - first:
+      213: 9140387630946762432
+    second: Old hero_826
+  - first:
+      213: -7042576859982481504
+    second: Old hero_827
+  - first:
+      213: -2533888858838173038
+    second: Old hero_828
+  - first:
+      213: 8721196173433834031
+    second: Old hero_829
+  - first:
+      213: -2268668951021651253
+    second: Old hero_830
+  - first:
+      213: 3291866202783724848
+    second: Old hero_831
+  - first:
+      213: -672256201384634903
+    second: Old hero_832
+  - first:
+      213: 1958289910854208868
+    second: Old hero_833
+  - first:
+      213: 6739572519302392140
+    second: Old hero_834
+  - first:
+      213: -9087965668662679458
+    second: Old hero_835
+  - first:
+      213: -5529840783022679424
+    second: Old hero_836
+  - first:
+      213: -3707133338610258435
+    second: Old hero_837
+  - first:
+      213: -7442881955965229722
+    second: Old hero_838
+  - first:
+      213: 6473247038882583152
+    second: Old hero_839
+  - first:
+      213: 2439957411558379565
+    second: Old hero_840
+  - first:
+      213: 2844664338524683563
+    second: Old hero_841
+  - first:
+      213: 4782359232045235804
+    second: Old hero_842
+  - first:
+      213: 751732903583247021
+    second: Old hero_843
+  - first:
+      213: 6359820010302331723
+    second: Old hero_844
+  - first:
+      213: 2121599313734816142
+    second: Old hero_845
+  - first:
+      213: 4490352467199178378
+    second: Old hero_846
+  - first:
+      213: 8680756288635168445
+    second: Old hero_847
+  - first:
+      213: 5702357615708628641
+    second: Old hero_848
+  - first:
+      213: 254818232573260928
+    second: Old hero_849
+  - first:
+      213: -2327480097505246650
+    second: Old hero_850
+  - first:
+      213: -1164054797270735939
+    second: Old hero_851
+  - first:
+      213: -781562458658585942
+    second: Old hero_852
+  - first:
+      213: -7607507965590936939
+    second: Old hero_853
+  - first:
+      213: -8540380700470583632
+    second: Old hero_854
+  - first:
+      213: 6617439791696900294
+    second: Old hero_855
+  - first:
+      213: -4111003683970168913
+    second: Old hero_856
+  - first:
+      213: 3414591038160081349
+    second: Old hero_857
+  - first:
+      213: 3933943990703709693
+    second: Old hero_858
+  - first:
+      213: 4570302839964023227
+    second: Old hero_859
+  - first:
+      213: -4313881068880786331
+    second: Old hero_860
+  - first:
+      213: -1239702961396588725
+    second: Old hero_861
+  - first:
+      213: -7404034454637233978
+    second: Old hero_862
+  - first:
+      213: -1515615331896364244
+    second: Old hero_863
+  - first:
+      213: 4125879249185869102
+    second: Old hero_864
+  - first:
+      213: 190570081460213772
+    second: Old hero_865
+  - first:
+      213: 8500671134551725025
+    second: Old hero_866
+  - first:
+      213: 6391635064126469781
+    second: Old hero_867
+  - first:
+      213: 1320468061060312934
+    second: Old hero_868
+  - first:
+      213: -2564655266550625785
+    second: Old hero_869
+  - first:
+      213: 4050105554838418004
+    second: Old hero_870
+  - first:
+      213: 6732133377059216518
+    second: Old hero_871
+  - first:
+      213: -6885777226711053481
+    second: Old hero_872
+  - first:
+      213: 7256219136430862940
+    second: Old hero_873
+  - first:
+      213: -3696831755694989532
+    second: Old hero_874
+  - first:
+      213: -8730624015351883610
+    second: Old hero_875
+  - first:
+      213: 1162016424059945644
+    second: Old hero_876
+  - first:
+      213: -4936747743260897727
+    second: Old hero_877
+  - first:
+      213: 6466400750805922586
+    second: Old hero_878
+  - first:
+      213: 8413400454159581232
+    second: Old hero_879
+  - first:
+      213: 8758119881332158902
+    second: Old hero_880
+  - first:
+      213: 472725825971674417
+    second: Old hero_881
+  - first:
+      213: -2895758081451372404
+    second: Old hero_882
+  - first:
+      213: -7706448512118734094
+    second: Old hero_883
+  - first:
+      213: 5063787604529452373
+    second: Old hero_884
+  - first:
+      213: -6525267932909940183
+    second: Old hero_885
+  - first:
+      213: -1152947099173656268
+    second: Old hero_886
+  - first:
+      213: 7698459410628677632
+    second: Old hero_887
+  - first:
+      213: 8987289443926969282
+    second: Old hero_888
+  - first:
+      213: 7534881015278990178
+    second: Old hero_889
+  - first:
+      213: 6496857505948778869
+    second: Old hero_890
+  - first:
+      213: 4481991131045639896
+    second: Old hero_891
+  - first:
+      213: 6614259688717680402
+    second: Old hero_892
+  - first:
+      213: 4942518944780481770
+    second: Old hero_893
+  - first:
+      213: -15612778221500387
+    second: Old hero_894
+  - first:
+      213: 2384576907479682839
+    second: Old hero_895
+  - first:
+      213: 3813082048394716605
+    second: Old hero_0
+  - first:
+      213: 5546120568701604274
+    second: Old hero_1
+  - first:
+      213: 752605100532158963
+    second: Old hero_2
+  - first:
+      213: 61634410359442083
+    second: Old hero_3
+  - first:
+      213: -5861286699082654598
+    second: Old hero_4
+  - first:
+      213: -8475307128729363030
+    second: Old hero_5
+  - first:
+      213: 2289674565710274299
+    second: Old hero_7
+  - first:
+      213: 8017966307957753698
+    second: Old hero_8
+  - first:
+      213: 6788488998916342821
+    second: Old hero_9
+  - first:
+      213: -6112421004738088309
+    second: Old hero_10
+  - first:
+      213: 1527155553055238244
+    second: Old hero_11
+  - first:
+      213: 4673057673424891832
+    second: Old hero_12
+  - first:
+      213: 4197751221459757539
+    second: Old hero_14
+  - first:
+      213: -5579237288026081718
+    second: Old hero_15
+  - first:
+      213: 5683344455863971578
+    second: Old hero_16
+  - first:
+      213: 8543092258213835451
+    second: Old hero_17
+  - first:
+      213: 8122853409632853597
+    second: Old hero_19
+  - first:
+      213: 8288819442753132604
+    second: Old hero_21
+  - first:
+      213: -7508670401133117105
+    second: Old hero_22
+  - first:
+      213: -407669349593566676
+    second: Old hero_23
+  - first:
+      213: 5177832866061805541
+    second: Old hero_24
+  - first:
+      213: 5699312751333814620
+    second: Old hero_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Old hero_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db56cf1abe9cae430800000000000000
+      internalID: 3813082048394716605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b152fac547c7fc40800000000000000
+      internalID: 5546120568701604274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1dd59f95ac17a00800000000000000
+      internalID: 752605100532158963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa4a6f6b28fad000800000000000000
+      internalID: 61634410359442083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cd4763dc688aea0800000000000000
+      internalID: -5861286699082654598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad10cd0219a16a80800000000000000
+      internalID: -8475307128729363030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0994536004b8d80800000000000000
+      internalID: -8247427897190936331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe5864e2ee86cf10800000000000000
+      internalID: 2289674565710274299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2674fd640e9854f60800000000000000
+      internalID: 8017966307957753698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5244e0e07ce853e50800000000000000
+      internalID: 6788488998916342821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8233fe2b715c2ba0800000000000000
+      internalID: -6112421004738088309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4686f9062eb813510800000000000000
+      internalID: 1527155553055238244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf676fe1390ad040800000000000000
+      internalID: 4673057673424891832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f6942901b0d7db0800000000000000
+      internalID: -4792662262650671357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9229ace78614a30800000000000000
+      internalID: 4197751221459757539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4677912f319292b0800000000000000
+      internalID: -5579237288026081718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe25f3cbab4fde40800000000000000
+      internalID: 5683344455863971578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2b93645292f8670800000000000000
+      internalID: 8543092258213835451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1bb42a0748ee9b0800000000000000
+      internalID: -5048952512941674034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e9cbba32c2ab070800000000000000
+      internalID: 8122853409632853597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5217e00a5c21a00800000000000000
+      internalID: 725859781187806625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38d6acfd5dc70370800000000000000
+      internalID: 8288819442753132604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4188f48d08dbc790800000000000000
+      internalID: -7508670401133117105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2239afe2eaa75af0800000000000000
+      internalID: -407669349593566676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7e4ffee8b5bd740800000000000000
+      internalID: 5177832866061805541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old hero_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c513b1740c6081f40800000000000000
+      internalID: 5699312751333814620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
