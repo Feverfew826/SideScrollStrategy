@@ -4,31 +4,26 @@ using UnityEngine;
 
 public class TriggerVolume : MonoBehaviour
 {
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        RuleManager.Rule?.OnEnter(this, collision);
+    }
+
     public enum Type
     {
         Death,
         Win,
         Gun,
-        BulletBundle
+        BulletBundle,
+        EnemyBarrack
     }
-    public interface GameRule
+    public interface IGameRule
     {
         void OnEnter(TriggerVolume triggerVolume, Collider2D collision);
     }
-    static public GameRule gameRule;
+    public GameRuleManager<IGameRule> RuleManager { private set; get; } = new GameRuleManager<IGameRule>();
 
     public Type type;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void EnableTriggerAfterSeconds(float seconds)
     {
@@ -40,11 +35,5 @@ public class TriggerVolume : MonoBehaviour
         yield return new WaitForSeconds(seconds);
 
         GetComponent<BoxCollider2D>().enabled = true;
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (gameRule != null)
-            gameRule.OnEnter(this, collision);
     }
 }

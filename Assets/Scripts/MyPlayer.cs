@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MyPlayer : MonoBehaviour, InputHandler.InputReceiver
+public class MyPlayer : MonoBehaviour, InputHandler.IInputReceiver
 {
     [Range(100, 2000)]
     public float speed;
@@ -17,11 +17,11 @@ public class MyPlayer : MonoBehaviour, InputHandler.InputReceiver
     public GroundChecker groundChecker;
     private GunSlinger gunSlinger;
 
-    public interface GameRule
+    public interface IGameRule
     {
         void OnDeath(MyPlayer myPlayer);
     }
-    static public GameRule gameRule;
+    public GameRuleManager<IGameRule> RuleManager { private set; get; } = new GameRuleManager<IGameRule>();
 
     // Start is called before the first frame update
     void Start()
@@ -43,8 +43,7 @@ public class MyPlayer : MonoBehaviour, InputHandler.InputReceiver
 
     public void Die()
     {
-        if (gameRule != null)
-            gameRule.OnDeath(this);
+        RuleManager.Rule?.OnDeath(this);
     }
 
     public void Ceremony()
@@ -58,7 +57,7 @@ public class MyPlayer : MonoBehaviour, InputHandler.InputReceiver
         transform.position = position;
     }
 
-    void InputHandler.InputReceiver.OnHorizontalAxis(float horizontalAxis)
+    void InputHandler.IInputReceiver.OnHorizontalAxis(float horizontalAxis)
     {
         float currentStatusSpeed = speed;
 
@@ -82,23 +81,23 @@ public class MyPlayer : MonoBehaviour, InputHandler.InputReceiver
             rigidBody.AddForce(Vector2.left * currentStatusSpeed * Time.deltaTime);
         }
     }
-    void InputHandler.InputReceiver.OnVerticalAxis(float verticalAxis)
+    void InputHandler.IInputReceiver.OnVerticalAxis(float verticalAxis)
     {
 
     }
-    void InputHandler.InputReceiver.OnJumpButtonDown()
+    void InputHandler.IInputReceiver.OnJumpButtonDown()
     {
         if (groundChecker.isGrounded)
             rigidBody.AddForce(Vector2.up * jumpPower);
     }
-    void InputHandler.InputReceiver.OnFire1ButtonDown()
+    void InputHandler.IInputReceiver.OnFireButtonDown()
     {
         if(gunSlinger != null)
             gunSlinger.Fire();
     }
 
 
-    public void OnFire2ButtonDown()
+    public void OnUnequipButtonDown()
     {
         if (gunSlinger != null)
             gunSlinger.Unequip();

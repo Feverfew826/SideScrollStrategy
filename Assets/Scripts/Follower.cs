@@ -5,21 +5,57 @@ using UnityEngine;
 
 public class Follower : MonoBehaviour
 {
-    public GameObject Target;
+    public GameObject target;
     public float lowLimit;
-
-    // Start is called before the first frame update
-    void Start()
+    public float followSpeed = 0.05f;
+    public enum Mode
     {
-        
+        Teleport,
+        Follow
     }
+    public Mode mode;
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 targetPosition = Target.transform.position;
+        if (target != null)
+        {
+            switch (mode)
+            {
+                case Mode.Teleport:
+                    Teleport();
+                    break;
+                case Mode.Follow:
+                    Follow();
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
+    void Teleport()
+    {
+        Vector3 targetPosition = target.transform.position;
         targetPosition.y = Mathf.Max(targetPosition.y, lowLimit);
         targetPosition.z = transform.position.z;
-        transform.Translate(targetPosition - transform.position);
+
+        Vector3 translation = targetPosition - transform.position;
+
+        transform.Translate(translation);
+    }
+
+    void Follow()
+    {
+        Vector3 targetPosition = target.transform.position;
+        targetPosition.y = Mathf.Max(targetPosition.y, lowLimit);
+        targetPosition.z = transform.position.z;
+
+        Vector3 translation = targetPosition - transform.position;
+
+        if(Vector3.Magnitude(translation) > followSpeed)
+            transform.Translate(translation.normalized * followSpeed);
+        else
+            transform.Translate(translation);
     }
 }

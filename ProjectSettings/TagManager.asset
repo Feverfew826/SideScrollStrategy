@@ -15,7 +15,7 @@ TagManager:
   - 
   - DropItem
   - Player
-  - 
+  - MouseClickOnly
   - 
   - 
   - 
@@ -40,6 +40,12 @@ TagManager:
   m_SortingLayers:
   - name: Background
     uniqueID: 2979778995
+    locked: 0
+  - name: TileMap
+    uniqueID: 2299109505
+    locked: 0
+  - name: Structures
+    uniqueID: 1288234859
     locked: 0
   - name: Default
     uniqueID: 0
