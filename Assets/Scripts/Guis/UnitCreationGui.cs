@@ -15,7 +15,7 @@ public class UnitCreationGui : MonoBehaviour
         Hide();
     }
 
-    public void Display(UnitDefinitionGui.UnitDefinition[] unitDefinitions)
+    public void Initialize(int numOfItem)
     {
         foreach (var unitDefGui in unitDefinitionGuis)
         {
@@ -23,7 +23,7 @@ public class UnitCreationGui : MonoBehaviour
         }
         unitDefinitionGuis.Clear();
 
-        for (int i = 0; i < unitDefinitions.Length; i++)
+        for (int i = 0; i < numOfItem; i++)
         {
             GameObject unitDefGuiGo = Instantiate<GameObject>(unitDefinitionGuiPrefab, scrollViewContent);
             RectTransform rectTransform = unitDefGuiGo.GetComponent<RectTransform>();
@@ -31,12 +31,16 @@ public class UnitCreationGui : MonoBehaviour
 
             //Positioning
             rectTransform.anchoredPosition = new Vector2(rectTransform.sizeDelta.x * i, 0);
-            unitDefGui.SetUnitDefinition(unitDefinitions[i]);
 
             unitDefinitionGuis.Add(unitDefGui);
         }
 
         gameObject.SetActive(true);
+    }
+
+    public IReadOnlyList<UnitDefinitionGui> GetUnitDefinitionGuis()
+    {
+        return unitDefinitionGuis;
     }
 
     public void Hide()

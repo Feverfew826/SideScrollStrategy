@@ -15,7 +15,8 @@ public class TriggerVolume : MonoBehaviour
         Win,
         Gun,
         BulletBundle,
-        EnemyBarrack
+        EnemyBarrack,
+        OurBarrack
     }
     public interface IGameRule
     {

@@ -1,5 +1,65 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2089515955816990202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3759956900334588864}
+  - component: {fileID: 5116726564804846059}
+  - component: {fileID: 7180726978877230523}
+  m_Layer: 9
+  m_Name: Sight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3759956900334588864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089515955816990202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2128130265406333240}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &5116726564804846059
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089515955816990202}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 5
+--- !u!114 &7180726978877230523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089515955816990202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5384518816d514fa695af48e7fa09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2128130264529219749
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,6 +199,7 @@ Transform:
   m_Children:
   - {fileID: 2128130264529219750}
   - {fileID: 2128130265344028758}
+  - {fileID: 3759956900334588864}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -268,11 +329,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2128130265406333187}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71c34ae525298e744b753277febe66fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 252bb3bea7e093143a71470b985e81f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1200
-  jumpPower: 500
+  speed: 1400
+  jumpPower: 600
+  healthPoint: 1
   groundChecker: {fileID: 2128130264529211224}
 --- !u!114 &2128130265406333242
 MonoBehaviour:
@@ -287,7 +349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputSource: {fileID: 2128130265406333244}
-  type: 0
+  type: 1
 --- !u!114 &2128130265406333243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,7 +382,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 2128130265406333244}
-  target: {fileID: 0}
+  destroyOperationTarget: {fileID: 0}
+  currentDestroyTarget: {fileID: 0}
+  sight: {fileID: 7180726978877230523}
   attackRange: 10
 --- !u!114 &2128130265406333244
 MonoBehaviour:
@@ -411,7 +475,7 @@ SpriteRenderer:
   m_Sprite: {fileID: -453025647616247643, guid: b2cfe89ce171798429a2b31b701c1633,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.9375, y: 0.75}

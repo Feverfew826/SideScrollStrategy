@@ -10,7 +10,8 @@ public class InputHandler : MonoBehaviour
 
     public enum Type
     {
-        Player
+        Player,
+        Ai
     }
     public interface IGameRule
     {

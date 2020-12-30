@@ -6,12 +6,14 @@ public class Gun : MonoBehaviour
 {
     private void OnDestroy()
     {
-        RuleManager.overridedGameRule = null;
+        RuleManager.Rule?.OnDestroy(this);
     }
 
     public interface IGameRule
     {
         void OnFire(Gun gun, GameObject bulletPrefab);
+
+        void OnDestroy(Gun gun);
     }
     public GameRuleManager<IGameRule> RuleManager { private set; get; } = new GameRuleManager<IGameRule>();
 

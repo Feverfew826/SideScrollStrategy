@@ -20,9 +20,15 @@ public class Bullet : MonoBehaviour
         if (shouldKilledByTime && Time.time - startTime > timeLimit)
             Destroy(gameObject);
     }
-    void OnCollisionEnter2D(Collision2D collision)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         RuleManager.Rule?.OnHit(this, collision);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
     }
 
     private void OnDestroy()
@@ -35,7 +41,7 @@ public class Bullet : MonoBehaviour
 
     public interface IGameRule
     {
-        void OnHit(Bullet bullet, Collision2D collision);
+        void OnHit(Bullet bullet, Collider2D collider);
         void OnDestroy(Bullet bullet);
     }
     public GameRuleManager<IGameRule> RuleManager { private set; get; } = new GameRuleManager<IGameRule>();

@@ -22,7 +22,7 @@ public class RunAndGunGameMode : JumpAndReachGameMode
     protected override void InjectRule()
     {
         base.InjectRule();
-        GameRuleManager<GunSlinger.IGameRule>.defaultGameRule = new GunSlingerGameRule();
+        GameRuleManager<GunSlinger.IGameRule>.defaultGameRule = new TemporalGunSlingerGameRule();
         GameRuleManager<Gun.IGameRule>.defaultGameRule = new UnequippedGunGameRule();
         GameRuleManager<Bullet.IGameRule>.defaultGameRule = new UnshotBulletGameRule();
     }
@@ -38,8 +38,8 @@ public class RunAndGunGameMode : JumpAndReachGameMode
 
     protected override void OnEnterTriggerVolume(TriggerVolume triggerVolume, Collider2D collision)
     {
-        MyPlayer myPlayer = collision.GetComponent<MyPlayer>();
-        if (myPlayer != null)
+        MyUnit myUnit = collision.GetComponent<MyUnit>();
+        if (myUnit != null)
         {
             switch (triggerVolume.type)
             {
@@ -60,6 +60,7 @@ public class RunAndGunGameMode : JumpAndReachGameMode
             }
         }
     }
+
     protected void OnEnterGun(TriggerVolume triggerVolume, Collider2D collision)
     {
         GunSlinger gunSlinger = collision.GetComponent<GunSlinger>();
@@ -75,7 +76,6 @@ public class RunAndGunGameMode : JumpAndReachGameMode
             }
 
             gunSlinger.Equip(gun);
-            gunSlinger.EquippedGun.RuleManager.overridedGameRule = new EquippedGunGameRule(gunSlinger);
         }
     }
 
@@ -93,18 +93,25 @@ public class RunAndGunGameMode : JumpAndReachGameMode
     }
     protected virtual void OnStartGunSlinger(GunSlinger gunSlinger)
     {
-        return;
+        gunSlinger.RuleManager.overridedGameRule = new GunSlingerGameRule();
     }
 
-    protected virtual void OnFireEquippedGun(GunSlinger gunSlinger, Gun gun, GameObject bulletPrefab)
+    protected virtual void OnFireEquippedGun(GunSlinger gunSlinger, Gun gun, GameObject bulletPrefab, GunSlingerGameRule gunSlingerGameRule)
     {
         switch (gun.modelName)
         {
             case Gun.ModelName.MyLittleGun:
                 if (bulletPrefab.GetComponent<Bullet>())
                 {
-                    Bullet bullet = Bullet.Shoot(bulletPrefab, gun.transform.position, Quaternion.Euler(0, 0, 90), 1000);
-                    bullet.RuleManager.overridedGameRule = new ShotBulletGameRule(gunSlinger, gun);
+                    float power = 1000;
+                    Quaternion rotation = Quaternion.Euler(0, 0, 270);
+                    if (gun.transform.rotation.eulerAngles.y != 0)
+                    { 
+                        power *= -1;
+                        rotation = Quaternion.Euler(0, 0, 90);
+                    }
+                    Bullet bullet = Bullet.Shoot(bulletPrefab, gun.transform.position, rotation, power);
+                    bullet.RuleManager.overridedGameRule = new ShotBulletGameRule(gunSlinger, gun, gunSlingerGameRule);
                 }
                 break;
             default:
@@ -112,16 +119,60 @@ public class RunAndGunGameMode : JumpAndReachGameMode
         }
     }
 
-    protected virtual void OnHitShotBullet(GunSlinger shooter, Gun usedGun, Bullet bullet, Collision2D collision)
+    protected virtual void OnHitShotBullet(GunSlinger shooter, Gun usedGun, Bullet bullet, Collider2D collider)
     {
         Debug.Log("Shooter: " + shooter + ", Gun: " + usedGun + ", Bullet: " + bullet);
     }
 
-    protected class GunSlingerGameRule : GunSlinger.IGameRule
+    protected class TemporalGunSlingerGameRule : GunSlinger.IGameRule
     {
+        void GunSlinger.IGameRule.OnDestroy(GunSlinger gunSlinger)
+        {
+            return;
+        }
+
+        void GunSlinger.IGameRule.OnEquip(GunSlinger gunSlinger, Gun gun)
+        {
+            return;
+        }
+
         void GunSlinger.IGameRule.OnStart(GunSlinger gunSlinger)
         {
             gameMode.OnStartGunSlinger(gunSlinger);
+        }
+
+        void GunSlinger.IGameRule.OnUnequip(GunSlinger gunSlinger, Gun gun)
+        {
+            return;
+        }
+    }
+
+    protected class GunSlingerGameRule : GunSlinger.IGameRule
+    {
+        public interface DeathSubscriber
+        {
+            void OnDeath(GunSlingerGameRule gunSlingerGameRule);
+        }
+        List<DeathSubscriber> deathSubscribers = new List<DeathSubscriber>();
+
+        public void UnSubscribeDeath(DeathSubscriber deathSubscriber)
+        {
+            deathSubscribers.Remove(deathSubscriber);
+        }
+
+        public void SubscribeDeath(DeathSubscriber deathSubscriber)
+        {
+            deathSubscribers.Add(deathSubscriber);
+        }
+
+        void GunSlinger.IGameRule.OnDestroy(GunSlinger gunSlinger)
+        {
+            deathSubscribers.ForEach(a => a.OnDeath(this));
+        }
+
+        void GunSlinger.IGameRule.OnStart(GunSlinger gunSlinger)
+        {
+            return;
         }
 
         void GunSlinger.IGameRule.OnUnequip(GunSlinger gunSlinger, Gun gun)
@@ -144,27 +195,51 @@ public class RunAndGunGameMode : JumpAndReachGameMode
 
             triggerVolume.EnableTriggerAfterSeconds(3);
         }
+
+        void GunSlinger.IGameRule.OnEquip(GunSlinger gunSlinger, Gun gun)
+        {
+            gun.RuleManager.overridedGameRule = new EquippedGunGameRule(gunSlinger, this);
+        }
     }
 
     class UnequippedGunGameRule : Gun.IGameRule
     {
+        void Gun.IGameRule.OnDestroy(Gun gun)
+        {
+            return;
+        }
+
         void Gun.IGameRule.OnFire(Gun gun, GameObject bulletPrefab)
         {
             Debug.LogError("Unequipped gun shot.");
         }
     }
 
-    protected class EquippedGunGameRule : Gun.IGameRule
+    protected class EquippedGunGameRule : Gun.IGameRule, GunSlingerGameRule.DeathSubscriber
     {
-        readonly GunSlinger gunSlinger;
-        public EquippedGunGameRule(GunSlinger gunSlinger)
-        { 
+        GunSlinger gunSlinger;
+        GunSlingerGameRule gunSlingerGameRule;
+        public EquippedGunGameRule(GunSlinger gunSlinger, GunSlingerGameRule gunSlingerGameRule)
+        {
             this.gunSlinger = gunSlinger;
+            this.gunSlingerGameRule = gunSlingerGameRule;
+            gunSlingerGameRule.SubscribeDeath(this);
+        }
+        void GunSlingerGameRule.DeathSubscriber.OnDeath(GunSlingerGameRule gunSlinger)
+        {
+            this.gunSlinger = null;
+            gunSlingerGameRule = null;
+        }
+
+        void Gun.IGameRule.OnDestroy(Gun gun)
+        {
+            if (gunSlingerGameRule != null)
+                gunSlingerGameRule.UnSubscribeDeath(this);
         }
 
         void Gun.IGameRule.OnFire(Gun gun, GameObject bulletPrefab)
         {
-            gameMode.OnFireEquippedGun(gunSlinger, gun, bulletPrefab);
+            gameMode.OnFireEquippedGun(gunSlinger, gun, bulletPrefab, gunSlingerGameRule);
         }
     }
 
@@ -176,28 +251,41 @@ public class RunAndGunGameMode : JumpAndReachGameMode
             wastedBulletCount++;
         }
 
-        void Bullet.IGameRule.OnHit(Bullet bullet, Collision2D collision)
+        void Bullet.IGameRule.OnHit(Bullet bullet, Collider2D collider)
         {
         }
     }
 
-    class ShotBulletGameRule : Bullet.IGameRule
+    class ShotBulletGameRule : Bullet.IGameRule, GunSlingerGameRule.DeathSubscriber
     {
-        readonly GunSlinger shooter;
+        GunSlinger shooter;
         readonly Gun usedGun;
+        GunSlingerGameRule gunSlingerGameRule;
 
-        public ShotBulletGameRule(GunSlinger shooter, Gun usedGun)
+        public ShotBulletGameRule(GunSlinger shooter, Gun usedGun, GunSlingerGameRule gunSlingerGameRule)
         {
             this.shooter = shooter;
             this.usedGun = usedGun;
-        }
-        void Bullet.IGameRule.OnDestroy(Bullet bullet)
-        {
+            this.gunSlingerGameRule = gunSlingerGameRule;
+            gunSlingerGameRule.SubscribeDeath(this);
         }
 
-        void Bullet.IGameRule.OnHit(Bullet bullet, Collision2D collision)
+        void GunSlingerGameRule.DeathSubscriber.OnDeath(GunSlingerGameRule gunSlinger)
         {
-            gameMode.OnHitShotBullet(shooter, usedGun, bullet, collision);
+            this.shooter = null;
+            gunSlingerGameRule = null;
+        }
+
+        void Bullet.IGameRule.OnDestroy(Bullet bullet)
+        {
+            if(gunSlingerGameRule != null)
+                gunSlingerGameRule.UnSubscribeDeath(this);
+        }
+
+        void Bullet.IGameRule.OnHit(Bullet bullet, Collider2D collider)
+        {
+            if(shooter != null)
+                gameMode.OnHitShotBullet(shooter, usedGun, bullet, collider);
         }
     }
 }

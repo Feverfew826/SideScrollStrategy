@@ -236,11 +236,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4556769548477039779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71c34ae525298e744b753277febe66fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 252bb3bea7e093143a71470b985e81f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1200
-  jumpPower: 500
+  speed: 1400
+  jumpPower: 600
   groundChecker: {fileID: 4556769547734117112}
 --- !u!114 &4556769548477039770
 MonoBehaviour:

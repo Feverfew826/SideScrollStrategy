@@ -3,12 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MyPlayer : MonoBehaviour, InputHandler.IInputReceiver
+public class MyUnit : MonoBehaviour, InputHandler.IInputReceiver
 {
     [Range(100, 2000)]
     public float speed;
     [Range(100, 1000)]
     public float jumpPower;
+    public float healthPoint;
 
     private Rigidbody2D rigidBody;
     private InputHandler inputHandler;
@@ -17,9 +18,12 @@ public class MyPlayer : MonoBehaviour, InputHandler.IInputReceiver
     public GroundChecker groundChecker;
     private GunSlinger gunSlinger;
 
+    private bool _isDead = false;
+    public bool IsDead { get { return _isDead; } }
+
     public interface IGameRule
     {
-        void OnDeath(MyPlayer myPlayer);
+        void OnDeath(MyUnit myUnit);
     }
     public GameRuleManager<IGameRule> RuleManager { private set; get; } = new GameRuleManager<IGameRule>();
 
@@ -43,6 +47,9 @@ public class MyPlayer : MonoBehaviour, InputHandler.IInputReceiver
 
     public void Die()
     {
+        _isDead = true;
+        inputHandler.AddInputReceiverUnregisterAwaiter(this);
+        animator.SetTrigger("Die");
         RuleManager.Rule?.OnDeath(this);
     }
 
@@ -70,14 +77,16 @@ public class MyPlayer : MonoBehaviour, InputHandler.IInputReceiver
         {
             if (rigidBody.velocity.x > 8)
                 currentStatusSpeed *= 0f;
-            spriteRenderer.flipX = false;
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+            // spriteRenderer.flipX = false;
             rigidBody.AddForce(Vector2.right * currentStatusSpeed * Time.deltaTime);
         }
         else if (horizontalAxis < 0)
         {
             if (rigidBody.velocity.x < -8)
                 currentStatusSpeed *= 0f;
-            spriteRenderer.flipX = true;
+            transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
+            // spriteRenderer.flipX = true;
             rigidBody.AddForce(Vector2.left * currentStatusSpeed * Time.deltaTime);
         }
     }
@@ -96,10 +105,19 @@ public class MyPlayer : MonoBehaviour, InputHandler.IInputReceiver
             gunSlinger.Fire();
     }
 
-
     public void OnUnequipButtonDown()
     {
         if (gunSlinger != null)
             gunSlinger.Unequip();
+    }
+
+    public void TakeDamage(float damage)
+    {
+        if( ! _isDead)
+        {
+            healthPoint = Mathf.Max(0, healthPoint - damage);
+            if (healthPoint == 0)
+                Die();
+        }
     }
 }

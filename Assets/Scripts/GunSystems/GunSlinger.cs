@@ -13,13 +13,17 @@ public class GunSlinger : MonoBehaviour
 
     private void OnDestroy()
     {
-        RuleManager.overridedGameRule = null;
+        RuleManager.Rule?.OnDestroy(this);
     }
 
     public interface IGameRule
     {
         void OnStart(GunSlinger gunSlinger);
         void OnUnequip(GunSlinger gunSlinger, Gun gun);
+
+        void OnEquip(GunSlinger gunSlinger, Gun gun);
+
+        void OnDestroy(GunSlinger gunSlinger);
     }
     public GameRuleManager<IGameRule> RuleManager { private set; get; } = new GameRuleManager<IGameRule>();
 
